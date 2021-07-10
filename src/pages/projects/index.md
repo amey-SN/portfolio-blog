@@ -1,6 +1,6 @@
 ---
 templateKey: 'project-page'
-path: /products
+path: /projects
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
