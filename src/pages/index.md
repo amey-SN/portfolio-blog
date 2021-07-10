@@ -1,21 +1,30 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Hi , My name is Amey Nagmode
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Projects
+subheading: I am a Web Developer
 mainpitch:
-  title: Why Kaldi
+  title: About Me
+  image: /img/profile.jpg
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Hi I am a Web Developer and an computer engineering undergraduate
+    from Wardha .  
+    I am currently graduating with bachelor's degree in Computer Engineering 
+    at GCOE , Jalgaon and actively looking for Internship opportunities . 
+    Modules I am studying during my degree include object-oriented programming ,
+    software engineering , software project management, operating systems , 
+    database management systems , web programming , computer networks , 
+    design and analysis of algorithms and cyber security . 
+   
+    My natural curiosity for computers is what drove me towards my computer engineering 
+    degree . I’ve always been fascinated by computers and the technical mechanics behind 
+    the monitor I am now eager to secure roles that demand use of the skills 
+    gained during my studies I love to connect with new people and build new 
+    relationships, so feel free to send me a message..
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  A website that tracks the real time number of covid-19 patients .
+  This site is built using HTML , CSS , JS 
 intro:
   blurbs:
     - image: /img/coffee.png

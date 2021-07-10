@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
@@ -34,16 +35,12 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
+      <section id="navbar">
       <nav
-        className="navbar is-transparent"
+        className="navbar navbar-nav navbar-light p-0"
         role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
+        aria-label="main-navigation" >
+        <div className="container mb-0">
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -54,43 +51,31 @@ const Navbar = class extends React.Component {
               <span />
               <span />
             </div>
-          </div>
+          
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+            className={`navbar-menu ${this.state.navBarActiveClass}`}      >
+            <div className="navbar-start ">
+            <Link to="/" className="navbar-item text-decoration-none" >
+              Home
+            </Link>
+              <Link className="navbar-item p-3 text-decoration-none" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item p-3 text-decoration-none" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item p-3 text-decoration-none" to="/projects">
+                Projects
+              </Link>
+              <Link className="navbar-item p-3 text-decoration-none" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
             </div>
           </div>
         </div>
       </nav>
+      </section>
     )
   }
 }

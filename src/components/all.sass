@@ -1,14 +1,17 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #36A1D4
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+
+
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -31,7 +34,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 1000px
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +47,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 710px
     background-size: cover
     background-position: bottom
     display: flex
@@ -61,15 +64,17 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color:  #ffffff
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #ffffff
+    box-shadow: inset 0 0 0 2px #2563c0
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
+// .footer a , p
+//    color: $kaldi-red-invert
 
 .navbar-item .icon
   color: $primary
@@ -80,9 +85,16 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
+
+
+
+hr
+    color: darken(white, 50%) !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 50%;
+    // border-top: 2px solid rgba(255, 255, 255, 0.1);
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -102,19 +114,34 @@ $menu-label-color: $white-ter
   text-align: left
 .social
   padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
+footer.footer
+  background: $black !important
+.footer.mt-auto p
+    color: #6f777e
+    // padding: .5em .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
     margin: .5em
     width: 1em
     height: 1em
     vertical-align: middle
     display: inline
+.footer.p-0 a
+    color: #6f777e
+    &:hover
+      color: #7be0ffc0 !important
+.text-muted.text-decoration-none a :hover
+  transition-delay: 0.1s
+  transition-duration: infinite
+  transition-property: ease-in
+  color:#80e1ffef
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+
+
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #46b2fa7a;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;

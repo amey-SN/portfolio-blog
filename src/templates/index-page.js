@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
@@ -16,7 +15,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
+     <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -39,12 +38,13 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+            color: 'linear-gradient(to right, #b993d6, #8ca6db)',
             lineHeight: '1',
             padding: '0.25em',
+            WebkitTextStroke:'0.5px #f8f9fa70',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            backgroundImage: 'linear-gradient(to right, #12c2e9, #c471ed, #f64f59)',
           }}
         >
           {title}
@@ -52,65 +52,82 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+            color: '#C9F6FF',
             lineHeight: '1',
-            padding: '0.25em',
+            paddingLeft:'0.8em',
+            paddingBottom: '10.25em',
+            textShadow:'2px 2px 5px black',
           }}
         >
           {subheading}
         </h3>
       </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
+
+   
+    <section>
+      <div className="container-fluid pb-5 pt-3  text-dark bg-white ">
+        <div className="row">
+            <div className="my-3">
+            <h1 className="text-center p-5 mt-0 ">{mainpitch.title}</h1>
+            </div>
+            </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-12">
+            <img height="500" width="350" className="img-thumbnail img-responsive shadow-lg  mb-2" src="/img/profile.jpg" alt="profile"/>
+            {/* <img className="img-thumbnail img-responsive shadow-lg" src={!!abtimg.childImageSharp ? abtimg.childImageSharp.fluid.src : abtimg} alt="profile"/> */}
+            
+            </div>
+            <div className="col-lg-4 col-md-12">
+            <p className="text-dark lead">{mainpitch.description}</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section>
+          <div className="container-fluid bg-white my-2 py-2">
+          <div className="row mt-2 pt-3">
+            <h1 className="text-center pt-5 pb-3">{heading}</h1>
+            </div>
+              <div className="row justify-content-center mr-0">
+                <div className="col-lg-4 col-md-12 p-3 m-2">
+                   <img className="img-thumbnail img-responsive shadow-lg" src="/img/project1.jpg" alt="profile"/>
                 </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
+                <div className="col-lg-4 col-md-12 p-3 m-2">
+                <h3>Project Title</h3>
+                <p>{description}</p>
+                <button className="btn"><a className="text-decoration-none" href="https://github.com/amey-SN/covidtimes.xyz">Source Code</a></button>
                 </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="text-center my-5">
+              <Link className="btn"  to="/products">See all projects</Link>
+              </div>
+              </div>
+             
+          </div>
+    </section>
+    {/* blogs section */}
+          <section>
+              <div className="container-fluid bg-white">
+                <div className="row">
+                <div className="mt-2 pt-3">
+                    <h1 className="text-center text-dark pt-2 pb-4">Blogs</h1>
                 </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-lg-12 col-md-12">
+                    <BlogRoll/>
+                    </div>
+                    <div className="col-lg-12 col-md-12 text-center text-white my-5 mx-0">
                     <Link className="btn" to="/blog">
                       Read more
                     </Link>
-                  </div>
+                    </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          </section>
+    {/* blog section ends */}
   </div>
 )
 
@@ -137,6 +154,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
+        abtimg={frontmatter.mainpitch.image}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -168,6 +186,7 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        title
         mainpitch {
           title
           description
@@ -177,7 +196,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 440, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }

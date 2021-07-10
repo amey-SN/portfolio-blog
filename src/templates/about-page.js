@@ -4,11 +4,29 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, image,content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <>
+    {/* self added */}
+    <section>
+      <div className="container-fluid bg-white text-dark pb-5">
+        <div className="row text-center py-5">
+          <h1>{title}</h1>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-12 justify-content-center pr-0">
+          <img height="500" width="350" className="img-thumbnail img-responsive shadow-lg  mb-2" src="/img/profile.jpg" alt="profile"/>
+          </div>
+          <div className="col-lg-4 col-md-12">
+          <PageContent className="content" content={content} />
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* self added ends here */}
+    {/* <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -21,7 +39,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
+    </>
   )
 }
 
@@ -39,6 +58,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        image={post.frontmatter.image}
         content={post.html}
       />
     </Layout>
@@ -57,7 +77,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        }
       }
     }
-  }
 `
