@@ -6,9 +6,9 @@ description: A collaboration between Chrome and open-source web frameworks & too
 featuredpost: true
 featuredimage: https://web-dev.imgix.net/image/0SXGYLkliuPQY3aSy3zWvdv7RqG2/lxaUR7Za1DoQMJuJEZHP.png?auto=format&w=964
 ---
-
-
 ![Aurora](https://web-dev.imgix.net/image/0SXGYLkliuPQY3aSy3zWvdv7RqG2/lxaUR7Za1DoQMJuJEZHP.png?auto=format&w=964)
+
+---
 On the Chrome team, we care about user experience and a thriving web ecosystem. We want users to have the best possible experience on the web, not only with static documents but also when they use rich, highly-interactive applications.
 
 Open-source tools and frameworks play a large role in enabling developers to build modern apps for the web, while also supporting good developer experiences. These frameworks and tools empower companies of all sizes, as well as individuals building for the web.
