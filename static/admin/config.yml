@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
   identity_url: 'https://ameysn-blog.netlify.app/.netlify/identity'
   gateway_url: 'https://ameysn-blog.netlify.app/.netlify/git'
   commit_messages:
