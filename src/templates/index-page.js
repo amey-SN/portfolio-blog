@@ -94,7 +94,7 @@ export const IndexPageTemplate = ({
                    <img className="img-thumbnail img-responsive shadow-lg" src="/img/project1.jpg" alt="profile"/>
                 </div>
                 <div className="col-lg-4 col-md-12 p-3 m-2">
-                <h3>Project Title</h3>
+                <h3>Covidtimes.xyz</h3>
                 <p>{description}</p>
                 <button className="btn"><a className="text-decoration-none" href="https://github.com/amey-SN/covidtimes.xyz">Source Code</a></button>
                 </div>
