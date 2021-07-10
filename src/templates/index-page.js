@@ -101,7 +101,7 @@ export const IndexPageTemplate = ({
               </div>
               <div className="row justify-content-center">
                 <div className="text-center my-5">
-              <Link className="btn"  to="/products">See all projects</Link>
+              <Link className="btn"  to="/projects">See all projects</Link>
               </div>
               </div>
              
