@@ -65,21 +65,21 @@ export const IndexPageTemplate = ({
     </div>
 
    
-    <section>
-      <div className="container-fluid pb-5 pt-3  text-dark bg-white ">
+    <section id="about">
+      <div className="container-fluid pb-5 pt-3 text-dark bg-white">
         <div className="row">
             <div className="my-3">
             <h1 className="text-center p-5 mt-0 ">{mainpitch.title}</h1>
             </div>
             </div>
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-12">
+            <div className="col-lg-5 col-md-12 justify-content-center">
+            <div className="text-center pb-md-5" >
             <img height="500" width="350" className="img-thumbnail img-responsive shadow-lg  mb-2" src="/img/profile.jpg" alt="profile"/>
-            {/* <img className="img-thumbnail img-responsive shadow-lg" src={!!abtimg.childImageSharp ? abtimg.childImageSharp.fluid.src : abtimg} alt="profile"/> */}
-            
             </div>
-            <div className="col-lg-4 col-md-12">
-            <p className="text-dark lead">{mainpitch.description}</p>
+            </div>
+            <div className="col-lg-5 col-md-12">
+            <p className="text-dark">{mainpitch.description}</p>
             </div>
           </div>
       </div>
