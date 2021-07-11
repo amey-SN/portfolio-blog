@@ -72,7 +72,7 @@ export default () => (
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
-          limit : 2,
+          limit: 2,
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
