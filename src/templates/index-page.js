@@ -75,7 +75,7 @@ export const IndexPageTemplate = ({
           <div className="row justify-content-center">
             <div className="col-lg-5 col-md-12 justify-content-center">
             <div className="text-center pb-md-5" >
-            <img height="500" width="350" className="img-thumbnail img-responsive shadow-lg  mb-2" src="/img/profile.jpg" alt="profile"/>
+            <img height="500" width="350" className="img-thumbnail img-responsive shadow-sm  mb-2" src="/img/profile.jpg" alt="profile"/>
             </div>
             </div>
             <div className="col-lg-5 col-md-12">
