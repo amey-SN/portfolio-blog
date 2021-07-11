@@ -9,7 +9,7 @@ export const AboutPageTemplate = ({ title, image,content, contentComponent }) =>
 
   return (
     <>
-    {/* self added */}
+ 
     <section id="about">
       <div className="container-fluid bg-white text-dark pb-5">
         <div className="row text-center py-5">
@@ -17,7 +17,7 @@ export const AboutPageTemplate = ({ title, image,content, contentComponent }) =>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-12 justify-content-center pr-0">
-          <img height="500" width="350" className="img-thumbnail img-responsive shadow-lg  mb-2" src="/img/profile.jpg" alt="profile"/>
+          <img height="500" width="350" className="img-thumbnail img-responsive shadow-sm mb-2" src="/img/profile.jpg" alt="profile"/>
           </div>
           <div className="col-lg-4 col-md-12">
           <PageContent className="content" content={content} />
@@ -25,21 +25,7 @@ export const AboutPageTemplate = ({ title, image,content, contentComponent }) =>
         </div>
       </div>
     </section>
-    {/* self added ends here */}
-    {/* <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
+    
     </>
   )
 }
