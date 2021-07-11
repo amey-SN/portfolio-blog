@@ -10,7 +10,7 @@ export const AboutPageTemplate = ({ title, image,content, contentComponent }) =>
   return (
     <>
     {/* self added */}
-    <section>
+    <section id="about">
       <div className="container-fluid bg-white text-dark pb-5">
         <div className="row text-center py-5">
           <h1>{title}</h1>
