@@ -17,7 +17,7 @@ export const AboutPageTemplate = ({ title, image,content, contentComponent }) =>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-12 justify-content-center pr-0">
-          <img height="500" width="350" className="img-thumbnail img-responsive shadow-sm mb-2" src="/img/profile.jpg" alt="profile"/>
+          <img height="500" width="350" className="img-thumbnail img-responsive shadow-sm mb-2" src={ !!image.childImageSharp ? image.childImageSharp.fluid.src : image} alt="profile"/>
           </div>
           <div className="col-lg-4 col-md-12">
           <PageContent className="content" content={content} />
@@ -63,6 +63,13 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        image{
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         }
       }
     }
