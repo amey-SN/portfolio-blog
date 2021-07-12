@@ -5,7 +5,7 @@ date: 2021-07-12T07:20:18.506Z
 description: We take a close look at the cheapest cloud storage options to fit
   any creative’s budget in 2021
 featuredpost: true
-featuredimage: https://cdn.mos.cms.futurecdn.net/eUJYYKcPeNzu6NBbNF7Ppj-1024-80.jpg.webp
+featuredimage: /img/eujyykcpenzu6nbbnf7ppj-1024-80.jpg.webp
 ---
 
 
