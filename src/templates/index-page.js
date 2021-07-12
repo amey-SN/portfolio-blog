@@ -12,7 +12,6 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
 }) => (
   <div>
      <div
@@ -138,9 +137,6 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -154,9 +150,8 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        abtimg={frontmatter.mainpitch.image}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        
       />
     </Layout>
   )
@@ -199,20 +194,7 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 440, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+       
       }
     }
   }
