@@ -5,7 +5,7 @@ date: 2021-07-12T07:37:10.818Z
 description: This blog provides a crash course in the internal workings of
   Gatsby by showing you how to build a simple blog on Gatsby from scratch.
 featuredpost: true
-featuredimage: /img/beea7f10ad12ca7aa3929c28690cd51f.png
+featuredimage: /img/gatsby.jpg
 ---
 ![gatsby-image](https://www.whitespectre.com/uploads/gatsby.jpg)
 Welcome to Gatsby (or Gatby.js), a powerful framework for static site generation that leverages GraphQL and React. Gatsby’s popularity increases as time goes on, and more and more people are starting to use it. One of the reasons for this is its ability to help you create a simple static website straightforwardly and quickly.
