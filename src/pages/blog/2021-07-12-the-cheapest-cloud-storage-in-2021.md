@@ -31,7 +31,7 @@ If you're a Prime member already, you'll get unlimited photo storage with Amazon
 [VIEW DEAL](https://target.georiot.com/Proxy.ashx?tsid=8429&GR_URL=https%3A%2F%2Famazon.co.uk%2Fb%3Fie%3DUTF8%26node%3D14156436031%26tag%3Dhawk-future-21%26ascsubtag%3Dcbq-in-6540590739595194000-21)
 
 ---
-### 1. Backblaze ![BlackBlaze](https://cdn.mos.cms.futurecdn.net/xLNUAAMWHnUFkpCoAjZEjT-970-80.png.webp)
+### 1. Backblaze 
 
 
 
@@ -62,7 +62,7 @@ If you need to restore your files after a data loss event, you can request that 
 ### 2.  Amazon Photos
 - Unlimited photo storage for Prime members
 
-- Storage: 5 GB                             ![Amazon-photos](https://cdn.mos.cms.futurecdn.net/dZBNxi2rvVDAYDMnWcuUFX-970-80.png.webp)
+- Storage: 5 GB                             
 - Storage options: 5 GB to unlimited
 - Plans starting at: $1.99/month  
 - Number of devices: Unlimited  
