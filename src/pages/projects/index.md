@@ -24,8 +24,8 @@ intro:
     - image: /img/project4.png
     - subheading: TextUtils
       text: >
-        A django project which can the given text into HTML .
+        A django project which can convert the given text into corresponding HTML code .
         It generates the HTML code for the entered text which can be copied and 
-        also can be downloaded as an.html file  
+        also can be downloaded as an .html file  
   
 ---
