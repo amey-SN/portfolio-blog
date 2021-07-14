@@ -14,7 +14,7 @@ export const ProductPageTemplate = ({
       <div className="row justify-content-center">
         <h1 className="text-center" >{heading}</h1>
       </div>
-      <div className="row justify-content-center">
+      <div className="container p-5">
       <Features gridItems={intro.blurbs} />
       </div>
     </div>
@@ -69,6 +69,7 @@ export const productPageQuery = graphql`
                 }
               }
             }
+            subheading
             text
           }
         }
