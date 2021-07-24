@@ -1,6 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
-.navbar .navbar-menu {
-  box-shadow: none !important; }
+.navbar {
+  background-color: rgba(255, 255, 255, 0.2) !important; }
+
+.navbar-menu.is-active {
+  background-color: #ffffff00; }
+
+.navbar-item.px-3.text-light.text-decoration-none:hover {
+  background-color: #ffffff56;
+  color: #0099ffe0; }
 
 .content .taglist {
   list-style: none;
@@ -99,9 +106,11 @@ footer.footer {
   display: inline; }
 
 .footer.p-0 a {
-  color: #6f777e; }
+  color: #6f777e;
+  font-weight: bold !important; }
   .footer.p-0 a:hover {
-    color: #7be0ffc0 !important; }
+    color: #5dd9ffea !important;
+    text-shadow: #7be0ffc0; }
 
 .text-muted.text-decoration-none a :hover {
   transition-delay: 0.1s;
@@ -111,7 +120,7 @@ footer.footer {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
 
 .blog-list-item.is-featured {
-  background-color: #46b2fa7a; }
+  background-color: #77b2ff9f; }
 
 .blog-list-item header {
   display: flex;
@@ -120,6 +129,9 @@ footer.footer {
 .blog-list-item .featured-thumbnail {
   flex-basis: 35%;
   margin: 0 1.5em 0 0; }
+
+#about {
+  font-size: 20px; }
 
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */

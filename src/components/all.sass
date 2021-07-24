@@ -12,9 +12,16 @@ $body-color: #333
 $black: #2b2523
 
 
-
+.navbar
+  background-color: rgba( 255, 255, 255, 0.20) !important
 .navbar .navbar-menu
-  box-shadow:none !important
+  // box-shadow:none !important
+.navbar-menu.is-active
+  background-color: #ffffff00
+.navbar-item.px-3.text-light.text-decoration-none
+  &:hover
+    background-color: #ffffff56
+    color: #0099ffe0
 
 .content .taglist
   list-style: none
@@ -127,8 +134,10 @@ footer.footer
     display: inline
 .footer.p-0 a
     color: #6f777e
+    font-weight: bold !important
     &:hover
-      color: #7be0ffc0 !important
+      color: #5dd9ffea !important
+      text-shadow: #7be0ffc0
 .text-muted.text-decoration-none a :hover
   transition-delay: 0.1s
   transition-duration: infinite
@@ -141,7 +150,7 @@ footer.footer
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #46b2fa7a;
+  background-color: #77b2ff9f;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;

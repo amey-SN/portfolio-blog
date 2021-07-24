@@ -5,16 +5,16 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 
 export const ProductPageTemplate = ({
-  heading,
+  heading, 
   intro,
 }) => (
   <>
   <section>
-    <div className="container-fluid bg-white my-2 p-3">
+    <div className="container-fluid bg-white p-3">
       <div className="row justify-content-center">
-        <h1 className="text-center" >{heading}</h1>
+        <h1 className="text-center pt-5" >{heading}</h1>
       </div>
-      <div className="container p-5">
+      <div className="container  pt-0">
       <Features gridItems={intro.blurbs} />
       </div>
     </div>

@@ -9,7 +9,17 @@ import { withPrefix } from 'gatsby'
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <div style={{
+      backgroundImage:`url('https://www.wallpapertip.com/wmimgs/66-666819_website-design-background-creative-background-image-for-website.jpg')`,
+      backgroundRepeat:'no-repeat',
+      backgroundPosition: `top left`,
+      backgroundAttachment: `fixed`,
+      backgroundSize:'cover',
+      zIndex:'0',
+      filter: `grayscale('100%')`,
+      
+    
+    }}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

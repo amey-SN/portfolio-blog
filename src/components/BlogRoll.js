@@ -13,7 +13,7 @@ class BlogRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
-              <article
+              <article style={{height:'100%',}}
                 className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
@@ -47,9 +47,11 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
+                  <div style={{position:'absolute', bottom:'15px', left:'10px',}} >
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Go To Blog  →
                   </Link>
+                  </div>
                 </p>
               </article>
             </div>
@@ -90,7 +92,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 2048, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

@@ -8,8 +8,8 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         
-        <section className="section">
-          <div className="container">
+        <section className="section p-0">
+          <div className="container-fluid bg-light py-5">
           <h1
             className="text-center pb-5"
           >

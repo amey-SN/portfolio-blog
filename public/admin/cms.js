@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "7ab14464863e05f0b78a";
+/******/ 	var hotCurrentHash = "65860ec1e06d722f7493";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -880,7 +880,7 @@ module.exports = [{
   plugin: __webpack_require__(/*! ../node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js */ "./node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js"),
   options: {
     "plugins": [],
-    "modulePath": "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master/src/cms/cms.js"
+    "modulePath": "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog/src/cms/cms.js"
   }
 }];
 
@@ -982,11 +982,11 @@ exports.apiRunnerAsync = function (api, args, defaultReturn) {
     return;
   }
 
-  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\api-runner-browser.js");
-  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\api-runner-browser.js");
-  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\api-runner-browser.js");
-  reactHotLoader.register(loadPage, "loadPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\api-runner-browser.js");
-  reactHotLoader.register(loadPageSync, "loadPageSync", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\api-runner-browser.js");
+  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\api-runner-browser.js");
+  reactHotLoader.register(loadPage, "loadPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\api-runner-browser.js");
+  reactHotLoader.register(loadPageSync, "loadPageSync", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\api-runner-browser.js");
 })();
 
 ;
@@ -1071,8 +1071,8 @@ var _default = emitter;
     return;
   }
 
-  reactHotLoader.register(emitter, "emitter", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\emitter.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\emitter.js");
+  reactHotLoader.register(emitter, "emitter", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\emitter.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\emitter.js");
 })();
 
 ;
@@ -1195,12 +1195,12 @@ var reportError = function reportError(errorID, error) {
     return;
   }
 
-  reactHotLoader.register(ErrorOverlay, "ErrorOverlay", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\error-overlay-handler.js");
-  reactHotLoader.register(errorMap, "errorMap", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\error-overlay-handler.js");
-  reactHotLoader.register(flat, "flat", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\error-overlay-handler.js");
-  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\error-overlay-handler.js");
-  reactHotLoader.register(clearError, "clearError", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\error-overlay-handler.js");
-  reactHotLoader.register(reportError, "reportError", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\error-overlay-handler.js");
+  reactHotLoader.register(ErrorOverlay, "ErrorOverlay", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\error-overlay-handler.js");
+  reactHotLoader.register(errorMap, "errorMap", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\error-overlay-handler.js");
+  reactHotLoader.register(flat, "flat", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\error-overlay-handler.js");
+  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\error-overlay-handler.js");
+  reactHotLoader.register(clearError, "clearError", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\error-overlay-handler.js");
+  reactHotLoader.register(reportError, "reportError", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\error-overlay-handler.js");
 })();
 
 ;
@@ -1355,14 +1355,14 @@ var cleanPath = function cleanPath(rawPathname) {
     return;
   }
 
-  reactHotLoader.register(pathCache, "pathCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(matchPaths, "matchPaths", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(trimPathname, "trimPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(absolutify, "absolutify", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(setMatchPaths, "setMatchPaths", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(findMatchPath, "findMatchPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(findPath, "findPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
-  reactHotLoader.register(cleanPath, "cleanPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\find-path.js");
+  reactHotLoader.register(pathCache, "pathCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(matchPaths, "matchPaths", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(trimPathname, "trimPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(absolutify, "absolutify", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(setMatchPaths, "setMatchPaths", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(findMatchPath, "findMatchPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(findPath, "findPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
+  reactHotLoader.register(cleanPath, "cleanPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\find-path.js");
 })();
 
 ;
@@ -1418,7 +1418,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_page_renderer__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_page_renderer__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony reexport (default from non-harmony) */ __webpack_require__.d(__webpack_exports__, "PageRenderer", function() { return _public_page_renderer__WEBPACK_IMPORTED_MODULE_4___default.a; });
 /* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loader */ "./.cache/loader.js");
-var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js",
+var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js",
     _this = undefined;
 
 (function () {
@@ -1535,12 +1535,12 @@ function graphql() {
     return;
   }
 
-  reactHotLoader.register(prefetchPathname, "prefetchPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQueryDataRenderer, "StaticQueryDataRenderer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQuery, "StaticQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js");
-  reactHotLoader.register(useStaticQuery, "useStaticQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js");
-  reactHotLoader.register(graphql, "graphql", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\gatsby-browser-entry.js");
+  reactHotLoader.register(prefetchPathname, "prefetchPathname", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryDataRenderer, "StaticQueryDataRenderer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQuery, "StaticQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js");
+  reactHotLoader.register(useStaticQuery, "useStaticQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js");
+  reactHotLoader.register(graphql, "graphql", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\gatsby-browser-entry.js");
 })();
 
 ;
@@ -2199,21 +2199,21 @@ function getStaticQueryResults() {
     return;
   }
 
-  reactHotLoader.register(PageResourceStatus, "PageResourceStatus", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(preferDefault, "preferDefault", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(stripSurroundingSlashes, "stripSurroundingSlashes", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(createPageDataUrl, "createPageDataUrl", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(doFetch, "doFetch", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(doesConnectionSupportPrefetch, "doesConnectionSupportPrefetch", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(toPageResources, "toPageResources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(BaseLoader, "BaseLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(createComponentUrls, "createComponentUrls", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(ProdLoader, "ProdLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(instance, "instance", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(setLoader, "setLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(publicLoader, "publicLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(getStaticQueryResults, "getStaticQueryResults", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\loader.js");
+  reactHotLoader.register(PageResourceStatus, "PageResourceStatus", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(stripSurroundingSlashes, "stripSurroundingSlashes", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(createPageDataUrl, "createPageDataUrl", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(doFetch, "doFetch", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(doesConnectionSupportPrefetch, "doesConnectionSupportPrefetch", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(toPageResources, "toPageResources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(BaseLoader, "BaseLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(createComponentUrls, "createComponentUrls", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(ProdLoader, "ProdLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(instance, "instance", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(setLoader, "setLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(publicLoader, "publicLoader", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(getStaticQueryResults, "getStaticQueryResults", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\loader.js");
 })();
 
 ;
@@ -2270,7 +2270,7 @@ var _default = function _default(path) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\normalize-page-path.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\normalize-page-path.js");
 })();
 
 ;
@@ -2378,8 +2378,8 @@ var _default = PageRenderer;
     return;
   }
 
-  reactHotLoader.register(PageRenderer, "PageRenderer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\page-renderer.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\page-renderer.js");
+  reactHotLoader.register(PageRenderer, "PageRenderer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\page-renderer.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\page-renderer.js");
 })();
 
 ;
@@ -2508,13 +2508,13 @@ var _default = prefetch;
     return;
   }
 
-  reactHotLoader.register(support, "support", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
-  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
-  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
-  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
-  reactHotLoader.register(preFetched, "preFetched", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
-  reactHotLoader.register(prefetch, "prefetch", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\prefetch.js");
+  reactHotLoader.register(support, "support", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
+  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
+  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
+  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
+  reactHotLoader.register(preFetched, "preFetched", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
+  reactHotLoader.register(prefetch, "prefetch", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\prefetch.js");
 })();
 
 ;
@@ -2581,8 +2581,8 @@ var _default = DevPageRenderer;
     return;
   }
 
-  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\public-page-renderer-dev.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\public-page-renderer-dev.js");
+  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\public-page-renderer-dev.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\public-page-renderer-dev.js");
 })();
 
 ;
@@ -2628,7 +2628,7 @@ if (true) {
     return;
   }
 
-  reactHotLoader.register(preferDefault, "preferDefault", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\public-page-renderer.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\public-page-renderer.js");
 })();
 
 ;
@@ -2660,7 +2660,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _page_renderer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page-renderer */ "./.cache/page-renderer.js");
 /* harmony import */ var _normalize_page_path__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./normalize-page-path */ "./.cache/normalize-page-path.js");
 
-var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\query-result-store.js";
+var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\query-result-store.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -2836,9 +2836,9 @@ var StaticQueryStore = /*#__PURE__*/function (_React$Component2) {
     return;
   }
 
-  reactHotLoader.register(getPathFromProps, "getPathFromProps", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\query-result-store.js");
-  reactHotLoader.register(PageQueryStore, "PageQueryStore", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\query-result-store.js");
-  reactHotLoader.register(StaticQueryStore, "StaticQueryStore", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\query-result-store.js");
+  reactHotLoader.register(getPathFromProps, "getPathFromProps", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\query-result-store.js");
+  reactHotLoader.register(PageQueryStore, "PageQueryStore", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\query-result-store.js");
+  reactHotLoader.register(StaticQueryStore, "StaticQueryStore", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\query-result-store.js");
 })();
 
 ;
@@ -3008,18 +3008,18 @@ function unregisterPath(path) {
     return;
   }
 
-  reactHotLoader.register(socket, "socket", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(staticQueryData, "staticQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(pageQueryData, "pageQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(isInitialized, "isInitialized", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(getStaticQueryData, "getStaticQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(getPageQueryData, "getPageQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(getIsInitialized, "getIsInitialized", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(socketIo, "socketIo", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(inFlightGetPageDataPromiseCache, "inFlightGetPageDataPromiseCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(getPageData, "getPageData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(registerPath, "registerPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
-  reactHotLoader.register(unregisterPath, "unregisterPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\socketIo.js");
+  reactHotLoader.register(socket, "socket", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(staticQueryData, "staticQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(pageQueryData, "pageQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(isInitialized, "isInitialized", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(getStaticQueryData, "getStaticQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(getPageQueryData, "getPageQueryData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(getIsInitialized, "getIsInitialized", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(socketIo, "socketIo", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(inFlightGetPageDataPromiseCache, "inFlightGetPageDataPromiseCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(getPageData, "getPageData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(registerPath, "registerPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
+  reactHotLoader.register(unregisterPath, "unregisterPath", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\socketIo.js");
 })();
 
 ;
@@ -3083,7 +3083,7 @@ function stripPrefix(str, prefix) {
     return;
   }
 
-  reactHotLoader.register(stripPrefix, "stripPrefix", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\.cache\\strip-prefix.js");
+  reactHotLoader.register(stripPrefix, "stripPrefix", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\.cache\\strip-prefix.js");
 })();
 
 ;
@@ -6783,42 +6783,42 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(_assertThisInitialized2, "_assertThisInitialized2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(_inheritsLoose2, "_inheritsLoose2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(_objectWithoutPropertiesLoose2, "_objectWithoutPropertiesLoose2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(_extends2, "_extends2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(_react, "_react", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(_propTypes, "_propTypes", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(logDeprecationNotice, "logDeprecationNotice", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(convertProps, "convertProps", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(hasArtDirectionSupport, "hasArtDirectionSupport", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(matchesMedia, "matchesMedia", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(getImageCacheKey, "getImageCacheKey", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(getCurrentSrcData, "getCurrentSrcData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(imageCache, "imageCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(inImageCache, "inImageCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(activateCacheForImage, "activateCacheForImage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(hasNativeLazyLoadSupport, "hasNativeLazyLoadSupport", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(isBrowser, "isBrowser", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(hasIOSupport, "hasIOSupport", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(io, "io", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(listeners, "listeners", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(getIO, "getIO", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(generateImageSources, "generateImageSources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(groupByMedia, "groupByMedia", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(generateTracedSVGSources, "generateTracedSVGSources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(generateBase64Sources, "generateBase64Sources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(generateNoscriptSource, "generateNoscriptSource", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(generateNoscriptSources, "generateNoscriptSources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(listenToIntersections, "listenToIntersections", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(noscriptImg, "noscriptImg", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(Placeholder, "Placeholder", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(Img, "Img", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(Image, "Image", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(fixedObject, "fixedObject", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(fluidObject, "fluidObject", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(requireFixedOrFluid, "requireFixedOrFluid", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
-  reactHotLoader.register(_default, "_default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_assertThisInitialized2, "_assertThisInitialized2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_inheritsLoose2, "_inheritsLoose2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_objectWithoutPropertiesLoose2, "_objectWithoutPropertiesLoose2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_extends2, "_extends2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_react, "_react", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_propTypes, "_propTypes", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(logDeprecationNotice, "logDeprecationNotice", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(convertProps, "convertProps", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(hasArtDirectionSupport, "hasArtDirectionSupport", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(matchesMedia, "matchesMedia", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(getImageCacheKey, "getImageCacheKey", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(getCurrentSrcData, "getCurrentSrcData", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(imageCache, "imageCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(inImageCache, "inImageCache", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(activateCacheForImage, "activateCacheForImage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(hasNativeLazyLoadSupport, "hasNativeLazyLoadSupport", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(isBrowser, "isBrowser", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(hasIOSupport, "hasIOSupport", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(io, "io", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(listeners, "listeners", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(getIO, "getIO", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(generateImageSources, "generateImageSources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(groupByMedia, "groupByMedia", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(generateTracedSVGSources, "generateTracedSVGSources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(generateBase64Sources, "generateBase64Sources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(generateNoscriptSource, "generateNoscriptSource", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(generateNoscriptSources, "generateNoscriptSources", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(listenToIntersections, "listenToIntersections", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(noscriptImg, "noscriptImg", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(Placeholder, "Placeholder", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(Img, "Img", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(Image, "Image", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(fixedObject, "fixedObject", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(fluidObject, "fluidObject", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(requireFixedOrFluid, "requireFixedOrFluid", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
+  reactHotLoader.register(_default, "_default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-image\\index.js");
 })();
 
 ;
@@ -7259,8 +7259,8 @@ setImmediate(function () {
     return;
   }
 
-  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\cms-identity.js");
-  reactHotLoader.register(addLoginListener, "addLoginListener", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\cms-identity.js");
+  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\cms-identity.js");
+  reactHotLoader.register(addLoginListener, "addLoginListener", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\cms-identity.js");
 })();
 
 ;
@@ -7331,8 +7331,8 @@ _netlifyCmsApp.default.registerPreviewStyle("cms.css");
     return;
   }
 
-  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\cms.js");
-  reactHotLoader.register(_emitter, "_emitter", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\cms.js");
+  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\cms.js");
+  reactHotLoader.register(_emitter, "_emitter", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\cms.js");
 })();
 
 ;
@@ -7408,10 +7408,10 @@ exports.onInitialClientRender = function (_, _ref) {
     return;
   }
 
-  reactHotLoader.register(_interopRequireWildcard2, "_interopRequireWildcard2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
-  reactHotLoader.register(routes, "routes", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
-  reactHotLoader.register(errorRoute, "errorRoute", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
-  reactHotLoader.register(accessTokenRoute, "accessTokenRoute", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
+  reactHotLoader.register(_interopRequireWildcard2, "_interopRequireWildcard2", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
+  reactHotLoader.register(routes, "routes", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
+  reactHotLoader.register(errorRoute, "errorRoute", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
+  reactHotLoader.register(accessTokenRoute, "accessTokenRoute", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-plugin-netlify-cms\\gatsby-browser.js");
 })();
 
 ;
@@ -7907,10 +7907,10 @@ exports.onRouteUpdate = function (apiCallbackContext, pluginOptions) {
     return;
   }
 
-  reactHotLoader.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
-  reactHotLoader.register(imageClass, "imageClass", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
-  reactHotLoader.register(imageBackgroundClass, "imageBackgroundClass", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
-  reactHotLoader.register(imageWrapperClass, "imageWrapperClass", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
+  reactHotLoader.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
+  reactHotLoader.register(imageClass, "imageClass", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
+  reactHotLoader.register(imageBackgroundClass, "imageBackgroundClass", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
+  reactHotLoader.register(imageWrapperClass, "imageWrapperClass", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\node_modules\\gatsby-remark-images\\gatsby-browser.js");
 })();
 
 ;
@@ -90528,7 +90528,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_about_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/about-page */ "./src/templates/about-page.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\AboutPagePreview.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\AboutPagePreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -90575,8 +90575,8 @@ var _default = AboutPagePreview;
     return;
   }
 
-  reactHotLoader.register(AboutPagePreview, "AboutPagePreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\AboutPagePreview.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\AboutPagePreview.js");
+  reactHotLoader.register(AboutPagePreview, "AboutPagePreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\AboutPagePreview.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\AboutPagePreview.js");
 })();
 
 ;
@@ -90604,7 +90604,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_blog_post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/blog-post */ "./src/templates/blog-post.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\BlogPostPreview.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\BlogPostPreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -90654,8 +90654,8 @@ var _default = BlogPostPreview;
     return;
   }
 
-  reactHotLoader.register(BlogPostPreview, "BlogPostPreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\BlogPostPreview.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\BlogPostPreview.js");
+  reactHotLoader.register(BlogPostPreview, "BlogPostPreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\BlogPostPreview.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\BlogPostPreview.js");
 })();
 
 ;
@@ -90683,7 +90683,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_index_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/index-page */ "./src/templates/index-page.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\IndexPagePreview.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\IndexPagePreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -90707,13 +90707,10 @@ var IndexPagePreview = function IndexPagePreview(_ref) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_index_page__WEBPACK_IMPORTED_MODULE_2__["IndexPageTemplate"], {
       image: getAsset(data.image),
       title: data.title,
-      heading: data.heading,
       subheading: data.subheading,
-      description: data.description,
-      intro: data.intro || {
-        blurbs: []
-      },
       mainpitch: data.mainpitch || {},
+      heading: data.heading,
+      intro: data.intro,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -90750,8 +90747,8 @@ var _default = IndexPagePreview;
     return;
   }
 
-  reactHotLoader.register(IndexPagePreview, "IndexPagePreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\IndexPagePreview.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\IndexPagePreview.js");
+  reactHotLoader.register(IndexPagePreview, "IndexPagePreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\IndexPagePreview.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\IndexPagePreview.js");
 })();
 
 ;
@@ -90779,7 +90776,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_project_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/project-page */ "./src/templates/project-page.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\ProjectPagePreview.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\ProjectPagePreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -90799,10 +90796,6 @@ var ProductPagePreview = function ProductPagePreview(_ref) {
       getAsset = _ref.getAsset;
   var entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
   var blurbs = entryBlurbs ? entryBlurbs.toJS() : [];
-  var entryTestimonials = entry.getIn(['data', 'testimonials']);
-  var testimonials = entryTestimonials ? entryTestimonials.toJS() : [];
-  var entryPricingPlans = entry.getIn(['data', 'pricing', 'plans']);
-  var pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : [];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_project_page__WEBPACK_IMPORTED_MODULE_2__["ProductPageTemplate"], {
     image: getAsset(entry.getIn(['data', 'image'])),
     title: entry.getIn(['data', 'title']),
@@ -90811,33 +90804,10 @@ var ProductPagePreview = function ProductPagePreview(_ref) {
     intro: {
       blurbs: blurbs
     },
-    main: {
-      heading: entry.getIn(['data', 'main', 'heading']),
-      description: entry.getIn(['data', 'main', 'description']),
-      image1: {
-        image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-        alt: entry.getIn(['data', 'main', 'image1', 'alt'])
-      },
-      image2: {
-        image: getAsset(entry.getIn(['data', 'main', 'image2', 'image'])),
-        alt: entry.getIn(['data', 'main', 'image2', 'alt'])
-      },
-      image3: {
-        image: getAsset(entry.getIn(['data', 'main', 'image3', 'image'])),
-        alt: entry.getIn(['data', 'main', 'image3', 'alt'])
-      }
-    },
-    fullImage: entry.getIn(['data', 'full_image']),
-    testimonials: testimonials,
-    pricing: {
-      heading: entry.getIn(['data', 'pricing', 'heading']),
-      description: entry.getIn(['data', 'pricing', 'description']),
-      plans: pricingPlans
-    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 11,
       columnNumber: 5
     }
   });
@@ -90860,8 +90830,8 @@ var _default = ProductPagePreview;
     return;
   }
 
-  reactHotLoader.register(ProductPagePreview, "ProductPagePreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\ProjectPagePreview.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\cms\\preview-templates\\ProjectPagePreview.js");
+  reactHotLoader.register(ProductPagePreview, "ProductPagePreview", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\ProjectPagePreview.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\cms\\preview-templates\\ProjectPagePreview.js");
 })();
 
 ;
@@ -90892,7 +90862,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
 
 
-var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\BlogRoll.js",
+var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\BlogRoll.js",
     _this2 = undefined;
 
 (function () {
@@ -90943,6 +90913,9 @@ var BlogRoll = /*#__PURE__*/function (_React$Component) {
           columnNumber: 13
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
+        style: {
+          height: '100%'
+        },
         className: "blog-list-item tile is-child box notification " + (post.frontmatter.featuredpost ? 'is-featured' : ''),
         __self: _this,
         __source: {
@@ -90990,14 +90963,14 @@ var BlogRoll = /*#__PURE__*/function (_React$Component) {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 34,
           columnNumber: 21
         }
       }, post.frontmatter.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 40,
           columnNumber: 21
         }
       }, " \u2022 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
@@ -91005,40 +90978,52 @@ var BlogRoll = /*#__PURE__*/function (_React$Component) {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 41,
           columnNumber: 21
         }
       }, post.frontmatter.date))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 46,
           columnNumber: 17
         }
       }, post.excerpt, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 48,
           columnNumber: 19
         }
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 49,
           columnNumber: 19
         }
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        style: {
+          position: 'absolute',
+          bottom: '15px',
+          left: '10px'
+        },
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         className: "button",
         to: post.fields.slug,
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 51,
           columnNumber: 19
         }
-      }, "Keep Reading \u2192"))));
+      }, "Go To Blog  \u2192")))));
     }));
   };
 
@@ -91061,7 +91046,7 @@ BlogRoll.propTypes = {
 
 var _default = function _default() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["StaticQuery"], {
-    query: "1606870023",
+    query: "683749182",
     render: function render(data, count) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(BlogRoll, {
         data: data,
@@ -91069,7 +91054,7 @@ var _default = function _default() {
         __self: _this2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 106,
           columnNumber: 30
         }
       });
@@ -91077,7 +91062,7 @@ var _default = function _default() {
     __self: _this2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 73,
       columnNumber: 3
     }
   });
@@ -91093,8 +91078,8 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(BlogRoll, "BlogRoll", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\BlogRoll.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\BlogRoll.js");
+  reactHotLoader.register(BlogRoll, "BlogRoll", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\BlogRoll.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\BlogRoll.js");
 })();
 
 ;
@@ -91122,7 +91107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Content.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Content.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -91182,9 +91167,9 @@ var _default = Content;
     return;
   }
 
-  reactHotLoader.register(HTMLContent, "HTMLContent", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Content.js");
-  reactHotLoader.register(Content, "Content", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Content.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Content.js");
+  reactHotLoader.register(HTMLContent, "HTMLContent", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Content.js");
+  reactHotLoader.register(Content, "Content", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Content.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Content.js");
 })();
 
 ;
@@ -91212,7 +91197,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Features.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Features.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -91248,30 +91233,38 @@ var FeatureGrid = function FeatureGrid(_ref) {
         columnNumber: 7
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-      className: "section",
+      className: "section py-2",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 9,
         columnNumber: 9
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "has-text-centered",
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      className: "p-3",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10,
         columnNumber: 11
       }
+    }, item.subheading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "text-start",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 11
+      }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       style: {
-        width: '440px',
+        width: '80%',
         display: 'inline-block'
       },
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 13
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -91279,25 +91272,55 @@ var FeatureGrid = function FeatureGrid(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 15
       }
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "w-100",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "pt-3",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 21,
+        columnNumber: 34
+      }
+    }, item.text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      style: {
+        position: 'relative',
+        bottom: '5px'
+      },
+      className: "btn",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
         columnNumber: 11
       }
-    }, item.text)));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "text-decoration-none",
+      href: "https://github.com/amey-SN/",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 80
+      }
+    }, "Source Code"))));
   }));
 };
 
 FeatureGrid.propTypes = {
   gridItems: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
     image: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
-    text: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string
+    text: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+    subheading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string
   }))
 };
 var _default = FeatureGrid;
@@ -91311,8 +91334,8 @@ var _default = FeatureGrid;
     return;
   }
 
-  reactHotLoader.register(FeatureGrid, "FeatureGrid", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Features.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Features.js");
+  reactHotLoader.register(FeatureGrid, "FeatureGrid", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Features.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Features.js");
 })();
 
 ;
@@ -91339,7 +91362,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
-var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Footer.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -91535,8 +91558,8 @@ var _default = Footer;
     return;
   }
 
-  reactHotLoader.register(Footer, "Footer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Footer.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Footer.js");
+  reactHotLoader.register(Footer, "Footer", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Footer.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Footer.js");
 })();
 
 ;
@@ -91568,7 +91591,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SiteMetadata__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SiteMetadata */ "./src/components/SiteMetadata.js");
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Layout.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Layout.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -91595,6 +91618,15 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
       description = _useSiteMetadata.description;
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      backgroundImage: "url('https://www.wallpapertip.com/wmimgs/66-666819_website-design-background-creative-background-image-for-website.jpg')",
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: "top left",
+      backgroundAttachment: "fixed",
+      backgroundSize: 'cover',
+      zIndex: '0',
+      filter: "grayscale('100%')"
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -91605,7 +91637,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 23,
       columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", {
@@ -91613,14 +91645,14 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 24,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 25,
       columnNumber: 9
     }
   }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -91629,7 +91661,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 26,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -91639,7 +91671,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 28,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -91650,7 +91682,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 33,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -91661,7 +91693,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 39,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -91671,7 +91703,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 46,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -91680,7 +91712,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 52,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -91691,7 +91723,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 54,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -91701,7 +91733,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 55,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -91709,7 +91741,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 56,
       columnNumber: 7
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -91717,7 +91749,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 57,
       columnNumber: 7
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -91725,7 +91757,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 58,
       columnNumber: 7
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -91734,7 +91766,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 59,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -91743,7 +91775,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 61,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -91752,7 +91784,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 62,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -91761,7 +91793,7 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 63,
       columnNumber: 9
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -91770,28 +91802,28 @@ var TemplateWrapper = function TemplateWrapper(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 64,
       columnNumber: 9
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 69,
       columnNumber: 7
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 70,
       columnNumber: 7
     }
   }, children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 71,
       columnNumber: 7
     }
   }));
@@ -91812,8 +91844,8 @@ var _default = TemplateWrapper;
     return;
   }
 
-  reactHotLoader.register(TemplateWrapper, "TemplateWrapper", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Layout.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Layout.js");
+  reactHotLoader.register(TemplateWrapper, "TemplateWrapper", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Layout.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Layout.js");
 })();
 
 ;
@@ -91846,7 +91878,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _temp,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Navbar.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Navbar.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -91906,7 +91938,14 @@ var Navbar = (_temp = /*#__PURE__*/function (_React$Component) {
         columnNumber: 7
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
-      className: "navbar navbar-nav navbar-light p-0",
+      className: "navbar navbar-nav p-0",
+      style: {
+        background: 'rgba( "255, 255, 255, 0.20") ',
+        boxShadow: " 0 8px 32px 0 rgba(' 31, 38, 135, 0.37' )",
+        backdropFilter: " blur( '2.5px' )",
+        WebkitBackdropFilter: "blur( '2.5px' )",
+        border: " 1px solid rgba( '255, 255, 255, 0.18' )"
+      },
       role: "navigation",
       "aria-label": "main-navigation",
       __self: this,
@@ -91920,11 +91959,16 @@ var Navbar = (_temp = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 50,
         columnNumber: 9
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "navbar-burger burger " + this.state.navBarActiveClass,
+      style: {
+        position: 'absolute',
+        top: '2px',
+        right: '4px'
+      },
+      className: "navbar-burger burger mx-0 " + this.state.navBarActiveClass,
       "data-target": "navMenu",
       onClick: function onClick() {
         return _this2.toggleHamburger();
@@ -91932,28 +91976,31 @@ var Navbar = (_temp = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 52,
         columnNumber: 13
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+      className: "text-light",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 61,
         columnNumber: 15
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+      className: "text-light",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 62,
         columnNumber: 15
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+      className: "text-light",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 63,
         columnNumber: 15
       }
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -91962,7 +92009,7 @@ var Navbar = (_temp = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 66,
         columnNumber: 11
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -91970,52 +92017,68 @@ var Navbar = (_temp = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 69,
         columnNumber: 13
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/",
-      className: "navbar-item text-decoration-none",
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+      style: {
+        color: 'linear-gradient(to right, #b993d6, #8ca6db)',
+        lineHeight: '2',
+        WebkitTextStroke: '0.5px #f8f9fa70',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        backgroundImage: 'linear-gradient(to left, #12c2e9, #c471ed, #f64f59)'
+      },
+      className: "brand px-3 text-light mb-0 py-0",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 70,
+        columnNumber: 13
+      }
+    }, "Amey Nagmode"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/",
+      className: "navbar-item px-3 text-light text-decoration-none",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78,
         columnNumber: 13
       }
     }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      className: "navbar-item p-3 text-decoration-none",
+      className: "navbar-item px-3 text-light text-decoration-none",
       to: "/about",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 81,
         columnNumber: 15
       }
     }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      className: "navbar-item p-3 text-decoration-none",
+      className: "navbar-item px-3 text-light text-decoration-none",
       to: "/blog",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
+        lineNumber: 84,
         columnNumber: 15
       }
     }, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      className: "navbar-item p-3 text-decoration-none",
+      className: "navbar-item px-3 text-light text-decoration-none",
       to: "/projects",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 87,
         columnNumber: 15
       }
     }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      className: "navbar-item p-3 text-decoration-none",
+      className: "navbar-item px-3 text-light text-decoration-none",
       to: "/contact",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71,
+        lineNumber: 90,
         columnNumber: 15
       }
     }, "Contact"))))));
@@ -92040,8 +92103,8 @@ var _default = Navbar;
     return;
   }
 
-  reactHotLoader.register(Navbar, "Navbar", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Navbar.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\Navbar.js");
+  reactHotLoader.register(Navbar, "Navbar", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Navbar.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Navbar.js");
 })();
 
 ;
@@ -92070,7 +92133,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
 /* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\PreviewCompatibleImage.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\PreviewCompatibleImage.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -92156,8 +92219,8 @@ var _default = PreviewCompatibleImage;
     return;
   }
 
-  reactHotLoader.register(PreviewCompatibleImage, "PreviewCompatibleImage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\PreviewCompatibleImage.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\PreviewCompatibleImage.js");
+  reactHotLoader.register(PreviewCompatibleImage, "PreviewCompatibleImage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\PreviewCompatibleImage.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\PreviewCompatibleImage.js");
 })();
 
 ;
@@ -92213,8 +92276,8 @@ var _default = useSiteMetadata;
     return;
   }
 
-  reactHotLoader.register(useSiteMetadata, "useSiteMetadata", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\SiteMetadata.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\components\\SiteMetadata.js");
+  reactHotLoader.register(useSiteMetadata, "useSiteMetadata", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\SiteMetadata.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\SiteMetadata.js");
 })();
 
 ;
@@ -92236,7 +92299,7 @@ var _default = useSiteMetadata;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1625906879043
+      // 1627108836582
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -92252,7 +92315,7 @@ var _default = useSiteMetadata;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDM4LjU0OXB4IiBoZWlnaHQ9IjQzOC41NDlweCIgdmlld0JveD0iMCAwIDQzOC41NDkgNDM4LjU0OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjU0OSA0MzguNTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQwOS4xMzIsMTE0LjU3M2MtMTkuNjA4LTMzLjU5Ni00Ni4yMDUtNjAuMTk0LTc5Ljc5OC03OS44QzI5NS43MzYsMTUuMTY2LDI1OS4wNTcsNS4zNjUsMjE5LjI3MSw1LjM2NSAgIGMtMzkuNzgxLDAtNzYuNDcyLDkuODA0LTExMC4wNjMsMjkuNDA4Yy0zMy41OTYsMTkuNjA1LTYwLjE5Miw0Ni4yMDQtNzkuOCw3OS44QzkuODAzLDE0OC4xNjgsMCwxODQuODU0LDAsMjI0LjYzICAgYzAsNDcuNzgsMTMuOTQsOTAuNzQ1LDQxLjgyNywxMjguOTA2YzI3Ljg4NCwzOC4xNjQsNjMuOTA2LDY0LjU3MiwxMDguMDYzLDc5LjIyN2M1LjE0LDAuOTU0LDguOTQ1LDAuMjgzLDExLjQxOS0xLjk5NiAgIGMyLjQ3NS0yLjI4MiwzLjcxMS01LjE0LDMuNzExLTguNTYyYzAtMC41NzEtMC4wNDktNS43MDgtMC4xNDQtMTUuNDE3Yy0wLjA5OC05LjcwOS0wLjE0NC0xOC4xNzktMC4xNDQtMjUuNDA2bC02LjU2NywxLjEzNiAgIGMtNC4xODcsMC43NjctOS40NjksMS4wOTItMTUuODQ2LDFjLTYuMzc0LTAuMDg5LTEyLjk5MS0wLjc1Ny0xOS44NDItMS45OTljLTYuODU0LTEuMjMxLTEzLjIyOS00LjA4Ni0xOS4xMy04LjU1OSAgIGMtNS44OTgtNC40NzMtMTAuMDg1LTEwLjMyOC0xMi41Ni0xNy41NTZsLTIuODU1LTYuNTdjLTEuOTAzLTQuMzc0LTQuODk5LTkuMjMzLTguOTkyLTE0LjU1OSAgIGMtNC4wOTMtNS4zMzEtOC4yMzItOC45NDUtMTIuNDE5LTEwLjg0OGwtMS45OTktMS40MzFjLTEuMzMyLTAuOTUxLTIuNTY4LTIuMDk4LTMuNzExLTMuNDI5Yy0xLjE0Mi0xLjMzMS0xLjk5Ny0yLjY2My0yLjU2OC0zLjk5NyAgIGMtMC41NzItMS4zMzUtMC4wOTgtMi40MywxLjQyNy0zLjI4OWMxLjUyNS0wLjg1OSw0LjI4MS0xLjI3Niw4LjI4LTEuMjc2bDUuNzA4LDAuODUzYzMuODA3LDAuNzYzLDguNTE2LDMuMDQyLDE0LjEzMyw2Ljg1MSAgIGM1LjYxNCwzLjgwNiwxMC4yMjksOC43NTQsMTMuODQ2LDE0Ljg0MmM0LjM4LDcuODA2LDkuNjU3LDEzLjc1NCwxNS44NDYsMTcuODQ3YzYuMTg0LDQuMDkzLDEyLjQxOSw2LjEzNiwxOC42OTksNi4xMzYgICBjNi4yOCwwLDExLjcwNC0wLjQ3NiwxNi4yNzQtMS40MjNjNC41NjUtMC45NTIsOC44NDgtMi4zODMsMTIuODQ3LTQuMjg1YzEuNzEzLTEyLjc1OCw2LjM3Ny0yMi41NTksMTMuOTg4LTI5LjQxICAgYy0xMC44NDgtMS4xNC0yMC42MDEtMi44NTctMjkuMjY0LTUuMTRjLTguNjU4LTIuMjg2LTE3LjYwNS01Ljk5Ni0yNi44MzUtMTEuMTRjLTkuMjM1LTUuMTM3LTE2Ljg5Ni0xMS41MTYtMjIuOTg1LTE5LjEyNiAgIGMtNi4wOS03LjYxNC0xMS4wODgtMTcuNjEtMTQuOTg3LTI5Ljk3OWMtMy45MDEtMTIuMzc0LTUuODUyLTI2LjY0OC01Ljg1Mi00Mi44MjZjMC0yMy4wMzUsNy41Mi00Mi42MzcsMjIuNTU3LTU4LjgxNyAgIGMtNy4wNDQtMTcuMzE4LTYuMzc5LTM2LjczMiwxLjk5Ny01OC4yNGM1LjUyLTEuNzE1LDEzLjcwNi0wLjQyOCwyNC41NTQsMy44NTNjMTAuODUsNC4yODMsMTguNzk0LDcuOTUyLDIzLjg0LDEwLjk5NCAgIGM1LjA0NiwzLjA0MSw5LjA4OSw1LjYxOCwxMi4xMzUsNy43MDhjMTcuNzA1LTQuOTQ3LDM1Ljk3Ni03LjQyMSw1NC44MTgtNy40MjFzMzcuMTE3LDIuNDc0LDU0LjgyMyw3LjQyMWwxMC44NDktNi44NDkgICBjNy40MTktNC41NywxNi4xOC04Ljc1OCwyNi4yNjItMTIuNTY1YzEwLjA4OC0zLjgwNSwxNy44MDItNC44NTMsMjMuMTM0LTMuMTM4YzguNTYyLDIxLjUwOSw5LjMyNSw0MC45MjIsMi4yNzksNTguMjQgICBjMTUuMDM2LDE2LjE4LDIyLjU1OSwzNS43ODcsMjIuNTU5LDU4LjgxN2MwLDE2LjE3OC0xLjk1OCwzMC40OTctNS44NTMsNDIuOTY2Yy0zLjksMTIuNDcxLTguOTQxLDIyLjQ1Ny0xNS4xMjUsMjkuOTc5ICAgYy02LjE5MSw3LjUyMS0xMy45MDEsMTMuODUtMjMuMTMxLDE4Ljk4NmMtOS4yMzIsNS4xNC0xOC4xODIsOC44NS0yNi44NCwxMS4xMzZjLTguNjYyLDIuMjg2LTE4LjQxNSw0LjAwNC0yOS4yNjMsNS4xNDYgICBjOS44OTQsOC41NjIsMTQuODQyLDIyLjA3NywxNC44NDIsNDAuNTM5djYwLjIzN2MwLDMuNDIyLDEuMTksNi4yNzksMy41NzIsOC41NjJjMi4zNzksMi4yNzksNi4xMzYsMi45NSwxMS4yNzYsMS45OTUgICBjNDQuMTYzLTE0LjY1Myw4MC4xODUtNDEuMDYyLDEwOC4wNjgtNzkuMjI2YzI3Ljg4LTM4LjE2MSw0MS44MjUtODEuMTI2LDQxLjgyNS0xMjguOTA2ICAgQzQzOC41MzYsMTg0Ljg1MSw0MjguNzI4LDE0OC4xNjgsNDA5LjEzMiwxMTQuNTczeiIvPgo8L2c+CjxkaXYgeG1sbnM9IiIgaWQ9ImRpdlNjcmlwdHNVc2VkIiBzdHlsZT0iZGlzcGxheTogbm9uZSIvPjxzY3JpcHQgeG1sbnM9IiIgaWQ9Imdsb2JhbFZhcnNEZXRlY3Rpb24iIHNyYz0iY2hyb21lLWV4dGVuc2lvbjovL2Nta2RibWZuZGtmZ2VibGRobmtiZmhsbmVlZmRhYWlwL2pzL3dyc19lbnYuanMiLz48L3N2Zz4K"
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDM4LjU0OXB4IiBoZWlnaHQ9IjQzOC41NDlweCIgdmlld0JveD0iMCAwIDQzOC41NDkgNDM4LjU0OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjU0OSA0MzguNTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBkPSJNNDA5LjEzMiwxMTQuNTczYy0xOS42MDgtMzMuNTk2LTQ2LjIwNS02MC4xOTQtNzkuNzk4LTc5LjhDMjk1LjczNiwxNS4xNjYsMjU5LjA1Nyw1LjM2NSwyMTkuMjcxLDUuMzY1ICAgYy0zOS43ODEsMC03Ni40NzIsOS44MDQtMTEwLjA2MywyOS40MDhjLTMzLjU5NiwxOS42MDUtNjAuMTkyLDQ2LjIwNC03OS44LDc5LjhDOS44MDMsMTQ4LjE2OCwwLDE4NC44NTQsMCwyMjQuNjMgICBjMCw0Ny43OCwxMy45NCw5MC43NDUsNDEuODI3LDEyOC45MDZjMjcuODg0LDM4LjE2NCw2My45MDYsNjQuNTcyLDEwOC4wNjMsNzkuMjI3YzUuMTQsMC45NTQsOC45NDUsMC4yODMsMTEuNDE5LTEuOTk2ICAgYzIuNDc1LTIuMjgyLDMuNzExLTUuMTQsMy43MTEtOC41NjJjMC0wLjU3MS0wLjA0OS01LjcwOC0wLjE0NC0xNS40MTdjLTAuMDk4LTkuNzA5LTAuMTQ0LTE4LjE3OS0wLjE0NC0yNS40MDZsLTYuNTY3LDEuMTM2ICAgYy00LjE4NywwLjc2Ny05LjQ2OSwxLjA5Mi0xNS44NDYsMWMtNi4zNzQtMC4wODktMTIuOTkxLTAuNzU3LTE5Ljg0Mi0xLjk5OWMtNi44NTQtMS4yMzEtMTMuMjI5LTQuMDg2LTE5LjEzLTguNTU5ICAgYy01Ljg5OC00LjQ3My0xMC4wODUtMTAuMzI4LTEyLjU2LTE3LjU1NmwtMi44NTUtNi41N2MtMS45MDMtNC4zNzQtNC44OTktOS4yMzMtOC45OTItMTQuNTU5ICAgYy00LjA5My01LjMzMS04LjIzMi04Ljk0NS0xMi40MTktMTAuODQ4bC0xLjk5OS0xLjQzMWMtMS4zMzItMC45NTEtMi41NjgtMi4wOTgtMy43MTEtMy40MjljLTEuMTQyLTEuMzMxLTEuOTk3LTIuNjYzLTIuNTY4LTMuOTk3ICAgYy0wLjU3Mi0xLjMzNS0wLjA5OC0yLjQzLDEuNDI3LTMuMjg5YzEuNTI1LTAuODU5LDQuMjgxLTEuMjc2LDguMjgtMS4yNzZsNS43MDgsMC44NTNjMy44MDcsMC43NjMsOC41MTYsMy4wNDIsMTQuMTMzLDYuODUxICAgYzUuNjE0LDMuODA2LDEwLjIyOSw4Ljc1NCwxMy44NDYsMTQuODQyYzQuMzgsNy44MDYsOS42NTcsMTMuNzU0LDE1Ljg0NiwxNy44NDdjNi4xODQsNC4wOTMsMTIuNDE5LDYuMTM2LDE4LjY5OSw2LjEzNiAgIGM2LjI4LDAsMTEuNzA0LTAuNDc2LDE2LjI3NC0xLjQyM2M0LjU2NS0wLjk1Miw4Ljg0OC0yLjM4MywxMi44NDctNC4yODVjMS43MTMtMTIuNzU4LDYuMzc3LTIyLjU1OSwxMy45ODgtMjkuNDEgICBjLTEwLjg0OC0xLjE0LTIwLjYwMS0yLjg1Ny0yOS4yNjQtNS4xNGMtOC42NTgtMi4yODYtMTcuNjA1LTUuOTk2LTI2LjgzNS0xMS4xNGMtOS4yMzUtNS4xMzctMTYuODk2LTExLjUxNi0yMi45ODUtMTkuMTI2ICAgYy02LjA5LTcuNjE0LTExLjA4OC0xNy42MS0xNC45ODctMjkuOTc5Yy0zLjkwMS0xMi4zNzQtNS44NTItMjYuNjQ4LTUuODUyLTQyLjgyNmMwLTIzLjAzNSw3LjUyLTQyLjYzNywyMi41NTctNTguODE3ICAgYy03LjA0NC0xNy4zMTgtNi4zNzktMzYuNzMyLDEuOTk3LTU4LjI0YzUuNTItMS43MTUsMTMuNzA2LTAuNDI4LDI0LjU1NCwzLjg1M2MxMC44NSw0LjI4MywxOC43OTQsNy45NTIsMjMuODQsMTAuOTk0ICAgYzUuMDQ2LDMuMDQxLDkuMDg5LDUuNjE4LDEyLjEzNSw3LjcwOGMxNy43MDUtNC45NDcsMzUuOTc2LTcuNDIxLDU0LjgxOC03LjQyMXMzNy4xMTcsMi40NzQsNTQuODIzLDcuNDIxbDEwLjg0OS02Ljg0OSAgIGM3LjQxOS00LjU3LDE2LjE4LTguNzU4LDI2LjI2Mi0xMi41NjVjMTAuMDg4LTMuODA1LDE3LjgwMi00Ljg1MywyMy4xMzQtMy4xMzhjOC41NjIsMjEuNTA5LDkuMzI1LDQwLjkyMiwyLjI3OSw1OC4yNCAgIGMxNS4wMzYsMTYuMTgsMjIuNTU5LDM1Ljc4NywyMi41NTksNTguODE3YzAsMTYuMTc4LTEuOTU4LDMwLjQ5Ny01Ljg1Myw0Mi45NjZjLTMuOSwxMi40NzEtOC45NDEsMjIuNDU3LTE1LjEyNSwyOS45NzkgICBjLTYuMTkxLDcuNTIxLTEzLjkwMSwxMy44NS0yMy4xMzEsMTguOTg2Yy05LjIzMiw1LjE0LTE4LjE4Miw4Ljg1LTI2Ljg0LDExLjEzNmMtOC42NjIsMi4yODYtMTguNDE1LDQuMDA0LTI5LjI2Myw1LjE0NiAgIGM5Ljg5NCw4LjU2MiwxNC44NDIsMjIuMDc3LDE0Ljg0Miw0MC41Mzl2NjAuMjM3YzAsMy40MjIsMS4xOSw2LjI3OSwzLjU3Miw4LjU2MmMyLjM3OSwyLjI3OSw2LjEzNiwyLjk1LDExLjI3NiwxLjk5NSAgIGM0NC4xNjMtMTQuNjUzLDgwLjE4NS00MS4wNjIsMTA4LjA2OC03OS4yMjZjMjcuODgtMzguMTYxLDQxLjgyNS04MS4xMjYsNDEuODI1LTEyOC45MDYgICBDNDM4LjUzNiwxODQuODUxLDQyOC43MjgsMTQ4LjE2OCw0MDkuMTMyLDExNC41NzN6Ii8+DQo8L2c+DQo8ZGl2IHhtbG5zPSIiIGlkPSJkaXZTY3JpcHRzVXNlZCIgc3R5bGU9ImRpc3BsYXk6IG5vbmUiLz48c2NyaXB0IHhtbG5zPSIiIGlkPSJnbG9iYWxWYXJzRGV0ZWN0aW9uIiBzcmM9ImNocm9tZS1leHRlbnNpb246Ly9jbWtkYm1mbmRrZmdlYmxkaG5rYmZobG5lZWZkYWFpcC9qcy93cnNfZW52LmpzIi8+PC9zdmc+DQo="
 
 /***/ }),
 
@@ -92263,7 +92326,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTA5IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpmaWdtYT0iaHR0cDovL3d3dy5maWdtYS5jb20vZmlnbWEvbnMiPjx0aXRsZT5Mb2dvPC90aXRsZT48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQ3MCkiIGZpZ21hOnR5cGU9ImNhbnZhcyI+PGcgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIgZmlnbWE6dHlwZT0idmVjdG9yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDcwKSIgZmlsbD0iI2Y0MCI+PHVzZSB4bGluazpocmVmPSIjYiIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2MiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48dXNlIHhsaW5rOmhyZWY9IiNkIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIi8+PHVzZSB4bGluazpocmVmPSIjZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2YiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48L2c+PC9nPjxkZWZzPjxwYXRoIGlkPSJiIiBkPSJNMjIuNzM1IDIzLjE3MWMuMjgzLjMyMy4wNTMuODI5LS4zNzYuODI5aC01LjkwN2MtLjI4NSAwLS41NTYtLjEyMS0uNzQ1LS4zMzNsLTkuNDE0LTEwLjUyNnYxMC4zNmMwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjNjMC0uMjc2LjIyNC0uNS41LS41aDUuMjkzYy4yNzYgMCAuNS4yMjQuNS41djkuODE1bDkuMTQxLTkuOTljLjE5LS4yMDcuNDU3LS4zMjUuNzM4LS4zMjVoNS43NjJjLjQzNyAwIC42NjQuNTIxLjM2Ni44NDFsLTkuODUxIDEwLjU2MyAxMC4yODcgMTEuNzY3eiIvPjxwYXRoIGlkPSJjIiBkPSJNNDUuOTkxIDI0Yy0uMTk5IDAtLjM4LS4xMTgtLjQ1OS0uMzAxbC0yLjAyNC00LjY2OWgtMTAuNjdsLTIuMDI0IDQuNjY5Yy0uMDc5LjE4My0uMjU5LjMwMS0uNDU5LjMwMWgtNS4yMTJjLS4zNjYgMC0uNjA4LS4zODEtLjQ1My0uNzEybDEwLjc4Mi0yM2MuMDgyLS4xNzYuMjU5LS4yODguNDUzLS4yODhoNC4zNThjLjE5NCAwIC4zNy4xMTIuNDUzLjI4N2wxMC44MTUgMjNjLjE1Ni4zMzItLjA4Ni43MTMtLjQ1Mi43MTNoLTUuMTA4em0tMTEuMTM1LTkuNjY4aDYuNjM1bC0zLjMxNy03LjY5NC0zLjMxNyA3LjY5NHoiLz48cGF0aCBpZD0iZCIgZD0iTTU1LjUyNSAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYxOC40MjhoOS43NTljLjI3NiAwIC41LjIyNC41LjV2NC4wNzJjMCAuMjc2LS4yMjQuNS0uNS41aC0xNS41NTJ6Ii8+PHBhdGggaWQ9ImUiIGQ9Ik03NS4yNzkuNWMwLS4yNzYuMjI0LS41LjUtLjVoOS4zMTVjMi42NjcgMCA0Ljk1OS40NzcgNi44NzQgMS40MyAxLjkzOC45NTMgMy40MiAyLjMzOCA0LjQ0NiA0LjE1MyAxLjAyNiAxLjc5MyAxLjUzOSAzLjkyNiAxLjUzOSA2LjQgMCAyLjQ5Ni0uNTEzIDQuNjUyLTEuNTM5IDYuNDY4LTEuMDAzIDEuNzkzLTIuNDc0IDMuMTY2LTQuNDEyIDQuMTE5LTEuOTE1Ljk1My00LjIxOCAxLjQzLTYuOTA4IDEuNDNoLTkuMzE1Yy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjN6bTkuMzcgMTguNDYyYzIuMzcxIDAgNC4xMzgtLjU3OSA1LjMwMS0xLjczNiAxLjE2My0xLjE1NyAxLjc0NC0yLjkwNSAxLjc0NC01LjI0MiAwLTIuMzM4LS41ODEtNC4wNzQtMS43NDQtNS4yMDktMS4xNjMtMS4xNTctMi45My0xLjczNi01LjMwMS0xLjczNmgtMy4wNzh2MTMuOTIzaDMuMDc4eiIvPjxwYXRoIGlkPSJmIiBkPSJNMTAyLjkxMyAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYyM2MwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzeiIvPjwvZGVmcz48L3N2Zz4K"
+module.exports = "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTA5IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpmaWdtYT0iaHR0cDovL3d3dy5maWdtYS5jb20vZmlnbWEvbnMiPjx0aXRsZT5Mb2dvPC90aXRsZT48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQ3MCkiIGZpZ21hOnR5cGU9ImNhbnZhcyI+PGcgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIgZmlnbWE6dHlwZT0idmVjdG9yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDcwKSIgZmlsbD0iI2Y0MCI+PHVzZSB4bGluazpocmVmPSIjYiIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2MiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48dXNlIHhsaW5rOmhyZWY9IiNkIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIi8+PHVzZSB4bGluazpocmVmPSIjZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2YiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48L2c+PC9nPjxkZWZzPjxwYXRoIGlkPSJiIiBkPSJNMjIuNzM1IDIzLjE3MWMuMjgzLjMyMy4wNTMuODI5LS4zNzYuODI5aC01LjkwN2MtLjI4NSAwLS41NTYtLjEyMS0uNzQ1LS4zMzNsLTkuNDE0LTEwLjUyNnYxMC4zNmMwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjNjMC0uMjc2LjIyNC0uNS41LS41aDUuMjkzYy4yNzYgMCAuNS4yMjQuNS41djkuODE1bDkuMTQxLTkuOTljLjE5LS4yMDcuNDU3LS4zMjUuNzM4LS4zMjVoNS43NjJjLjQzNyAwIC42NjQuNTIxLjM2Ni44NDFsLTkuODUxIDEwLjU2MyAxMC4yODcgMTEuNzY3eiIvPjxwYXRoIGlkPSJjIiBkPSJNNDUuOTkxIDI0Yy0uMTk5IDAtLjM4LS4xMTgtLjQ1OS0uMzAxbC0yLjAyNC00LjY2OWgtMTAuNjdsLTIuMDI0IDQuNjY5Yy0uMDc5LjE4My0uMjU5LjMwMS0uNDU5LjMwMWgtNS4yMTJjLS4zNjYgMC0uNjA4LS4zODEtLjQ1My0uNzEybDEwLjc4Mi0yM2MuMDgyLS4xNzYuMjU5LS4yODguNDUzLS4yODhoNC4zNThjLjE5NCAwIC4zNy4xMTIuNDUzLjI4N2wxMC44MTUgMjNjLjE1Ni4zMzItLjA4Ni43MTMtLjQ1Mi43MTNoLTUuMTA4em0tMTEuMTM1LTkuNjY4aDYuNjM1bC0zLjMxNy03LjY5NC0zLjMxNyA3LjY5NHoiLz48cGF0aCBpZD0iZCIgZD0iTTU1LjUyNSAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYxOC40MjhoOS43NTljLjI3NiAwIC41LjIyNC41LjV2NC4wNzJjMCAuMjc2LS4yMjQuNS0uNS41aC0xNS41NTJ6Ii8+PHBhdGggaWQ9ImUiIGQ9Ik03NS4yNzkuNWMwLS4yNzYuMjI0LS41LjUtLjVoOS4zMTVjMi42NjcgMCA0Ljk1OS40NzcgNi44NzQgMS40MyAxLjkzOC45NTMgMy40MiAyLjMzOCA0LjQ0NiA0LjE1MyAxLjAyNiAxLjc5MyAxLjUzOSAzLjkyNiAxLjUzOSA2LjQgMCAyLjQ5Ni0uNTEzIDQuNjUyLTEuNTM5IDYuNDY4LTEuMDAzIDEuNzkzLTIuNDc0IDMuMTY2LTQuNDEyIDQuMTE5LTEuOTE1Ljk1My00LjIxOCAxLjQzLTYuOTA4IDEuNDNoLTkuMzE1Yy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjN6bTkuMzcgMTguNDYyYzIuMzcxIDAgNC4xMzgtLjU3OSA1LjMwMS0xLjczNiAxLjE2My0xLjE1NyAxLjc0NC0yLjkwNSAxLjc0NC01LjI0MiAwLTIuMzM4LS41ODEtNC4wNzQtMS43NDQtNS4yMDktMS4xNjMtMS4xNTctMi45My0xLjczNi01LjMwMS0xLjczNmgtMy4wNzh2MTMuOTIzaDMuMDc4eiIvPjxwYXRoIGlkPSJmIiBkPSJNMTAyLjkxMyAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYyM2MwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzeiIvPjwvZGVmcz48L3N2Zz4NCg=="
 
 /***/ }),
 
@@ -92285,7 +92348,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Content */ "./src/components/Content.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\about-page.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\about-page.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -92307,6 +92370,7 @@ var AboutPageTemplate = function AboutPageTemplate(_ref) {
       contentComponent = _ref.contentComponent;
   var PageContent = contentComponent || _components_Content__WEBPACK_IMPORTED_MODULE_3__["default"];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "about",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -92355,8 +92419,8 @@ var AboutPageTemplate = function AboutPageTemplate(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     height: "500",
     width: "350",
-    className: "img-thumbnail img-responsive shadow-lg  mb-2",
-    src: "/img/profile.jpg",
+    className: "img-thumbnail img-responsive shadow-sm mb-2",
+    src: !!image.childImageSharp ? image.childImageSharp.fluid.src : image,
     alt: "profile",
     __self: _this,
     __source: {
@@ -92396,7 +92460,7 @@ var AboutPage = function AboutPage(_ref2) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 43,
       columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutPageTemplate, {
@@ -92407,7 +92471,7 @@ var AboutPage = function AboutPage(_ref2) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 44,
       columnNumber: 7
     }
   }));
@@ -92418,7 +92482,7 @@ AboutPage.propTypes = {
 };
 var _default = AboutPage;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
-var aboutPageQuery = "3414030819";
+var aboutPageQuery = "3425175776";
 ;
 
 (function () {
@@ -92428,10 +92492,10 @@ var aboutPageQuery = "3414030819";
     return;
   }
 
-  reactHotLoader.register(AboutPageTemplate, "AboutPageTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\about-page.js");
-  reactHotLoader.register(AboutPage, "AboutPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\about-page.js");
-  reactHotLoader.register(aboutPageQuery, "aboutPageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\about-page.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\about-page.js");
+  reactHotLoader.register(AboutPageTemplate, "AboutPageTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\about-page.js");
+  reactHotLoader.register(AboutPage, "AboutPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\about-page.js");
+  reactHotLoader.register(aboutPageQuery, "aboutPageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\about-page.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\about-page.js");
 })();
 
 ;
@@ -92466,7 +92530,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Content */ "./src/components/Content.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\blog-post.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\blog-post.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -92667,10 +92731,10 @@ var pageQuery = "2655957122";
     return;
   }
 
-  reactHotLoader.register(BlogPostTemplate, "BlogPostTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\blog-post.js");
-  reactHotLoader.register(BlogPost, "BlogPost", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\blog-post.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\blog-post.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\blog-post.js");
+  reactHotLoader.register(BlogPostTemplate, "BlogPostTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\blog-post.js");
+  reactHotLoader.register(BlogPost, "BlogPost", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\blog-post.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\blog-post.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\blog-post.js");
 })();
 
 ;
@@ -92699,10 +92763,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
-/* harmony import */ var _components_BlogRoll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/BlogRoll */ "./src/components/BlogRoll.js");
+/* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Features */ "./src/components/Features.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
+/* harmony import */ var _components_BlogRoll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/BlogRoll */ "./src/components/BlogRoll.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\index-page.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\index-page.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -92718,13 +92783,13 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
+
 var IndexPageTemplate = function IndexPageTemplate(_ref) {
   var image = _ref.image,
       title = _ref.title,
-      heading = _ref.heading,
       subheading = _ref.subheading,
       mainpitch = _ref.mainpitch,
-      description = _ref.description,
+      heading = _ref.heading,
       intro = _ref.intro;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __self: _this,
@@ -92737,8 +92802,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     className: "full-width-image margin-top-0",
     style: {
       backgroundImage: "url(" + (!!image.childImageSharp ? image.childImageSharp.fluid.src : image) + ")",
-      backgroundPosition: "top left",
-      backgroundAttachment: "fixed"
+      maxHeight: '100vh'
     },
     __self: _this,
     __source: {
@@ -92747,12 +92811,12 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
       columnNumber: 6
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "p-3",
     style: {
       display: 'flex',
-      height: '150px',
       lineHeight: '1',
-      justifyContent: 'space-around',
-      alignItems: 'left',
+      justifyContent: 'center',
+      alignItems: 'center',
       flexDirection: 'column'
     },
     __self: _this,
@@ -92764,48 +92828,49 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen",
     style: {
-      color: 'linear-gradient(to right, #b993d6, #8ca6db)',
-      lineHeight: '1',
-      padding: '0.25em',
-      WebkitTextStroke: '0.5px #f8f9fa70',
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor: 'transparent',
-      backgroundImage: 'linear-gradient(to right, #12c2e9, #c471ed, #f64f59)'
+      color: '#C9F6FF',
+      textShadow: '2px 2px 5px black',
+      lineHeight: '2' // WebkitTextStroke:'0.5px #f8f9fa70',
+      // WebkitBackgroundClip: 'text',
+      // WebkitTextFillColor: 'transparent',
+      // backgroundImage: 'linear-gradient(to right, #12c2e9, #c471ed, #f64f59)',
+
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 37,
       columnNumber: 9
     }
-  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen",
+  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen",
     style: {
       color: '#C9F6FF',
-      lineHeight: '1',
-      paddingLeft: '0.8em',
-      paddingBottom: '10.25em',
-      textShadow: '2px 2px 5px black'
+      lineHeight: '1.5',
+      width: '100%',
+      textShadow: '2px 2px 5px black',
+      marginBottom: '8rem'
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 51,
       columnNumber: 9
     }
   }, subheading))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "about",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container-fluid pb-5 pt-3 text-dark bg-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container-fluid pb-5 pt-3  text-dark bg-white ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
       columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -92813,7 +92878,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 69,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -92821,7 +92886,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 70,
       columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -92829,7 +92894,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 71,
       columnNumber: 13
     }
   }, mainpitch.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -92837,11 +92902,19 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 74,
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12",
+    className: "col-lg-5 col-md-12 justify-content-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text-center pb-md-5",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -92851,157 +92924,100 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     height: "500",
     width: "350",
-    className: "img-thumbnail img-responsive shadow-lg  mb-2",
-    src: "/img/profile.jpg",
+    className: "img-thumbnail img-responsive shadow-sm  mb-2",
+    src: !!mainpitch.image.childImageSharp ? mainpitch.image.childImageSharp.fluid.src : mainpitch.image,
     alt: "profile",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77,
+      columnNumber: 14
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-5 col-md-12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
       columnNumber: 13
     }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 81,
       columnNumber: 13
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-dark lead",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 13
-    }
   }, mainpitch.description))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 5
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container-fluid bg-white my-2 py-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 11
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row mt-2 pt-3",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 89,
-      columnNumber: 11
+      columnNumber: 1
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "text-center pt-5 pb-3",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container-fluid p-3 bg-dark text-light",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90,
-      columnNumber: 13
-    }
-  }, heading)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-center mr-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 15
+      columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12 p-3 m-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "img-thumbnail img-responsive shadow-lg",
-    src: "/img/project1.jpg",
-    alt: "profile",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 20
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12 p-3 m-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 17
-    }
-  }, "Project Title"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 17
-    }
-  }, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "text-decoration-none",
-    href: "https://github.com/amey-SN/covidtimes.xyz",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 41
-    }
-  }, "Source Code")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row justify-content-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 15
+      lineNumber: 91,
+      columnNumber: 7
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text-center my-5",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "text-center py-3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 17
+      lineNumber: 92,
+      columnNumber: 9
+    }
+  }, heading)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container  pt-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 7
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    gridItems: intro.blurbs,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 7
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text-center py-3 bg-dark",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    className: "btn",
-    to: "/products",
+    className: "btn text-light",
+    to: "/projects",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
-      columnNumber: 15
+      lineNumber: 100,
+      columnNumber: 9
     }
-  }, "See all projects"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, "See all projects"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 106,
       columnNumber: 11
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -93009,7 +93025,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 107,
       columnNumber: 15
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -93017,7 +93033,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 108,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -93025,7 +93041,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 109,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -93033,7 +93049,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 110,
       columnNumber: 21
     }
   }, "Blogs"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -93041,7 +93057,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 113,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -93049,14 +93065,14 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 114,
       columnNumber: 21
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogRoll__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogRoll__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 115,
       columnNumber: 21
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -93064,7 +93080,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 117,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -93073,46 +93089,41 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 118,
       columnNumber: 21
     }
-  }, "Read more"))))));
+  }, "Explore All Blogs"))))));
 };
 IndexPageTemplate.propTypes = {
   image: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
   title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   subheading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   mainpitch: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  intro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    blurbs: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
-  })
+  heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  intro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
 };
 
 var IndexPage = function IndexPage(_ref2) {
   var data = _ref2.data;
   var frontmatter = data.markdownRemark.frontmatter;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 142,
       columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IndexPageTemplate, {
     image: frontmatter.image,
     title: frontmatter.title,
-    heading: frontmatter.heading,
     subheading: frontmatter.subheading,
     mainpitch: frontmatter.mainpitch,
-    abtimg: frontmatter.mainpitch.image,
-    description: frontmatter.description,
+    heading: frontmatter.heading,
     intro: frontmatter.intro,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 143,
       columnNumber: 7
     }
   }));
@@ -93127,7 +93138,7 @@ IndexPage.propTypes = {
 };
 var _default = IndexPage;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
-var pageQuery = "3362981085";
+var pageQuery = "3010106591";
 ;
 
 (function () {
@@ -93137,10 +93148,10 @@ var pageQuery = "3362981085";
     return;
   }
 
-  reactHotLoader.register(IndexPageTemplate, "IndexPageTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\index-page.js");
-  reactHotLoader.register(IndexPage, "IndexPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\index-page.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\index-page.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\index-page.js");
+  reactHotLoader.register(IndexPageTemplate, "IndexPageTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\index-page.js");
+  reactHotLoader.register(IndexPage, "IndexPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\index-page.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\index-page.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\index-page.js");
 })();
 
 ;
@@ -93171,7 +93182,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Features */ "./src/components/Features.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\project-page.js";
+    _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\project-page.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -93197,7 +93208,7 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
       columnNumber: 3
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container-fluid bg-white my-2 p-3",
+    className: "container-fluid bg-white p-3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -93213,7 +93224,7 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
       columnNumber: 7
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "text-center",
+    className: "text-center pt-5",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -93221,7 +93232,7 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
       columnNumber: 9
     }
   }, heading)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-center",
+    className: "container  pt-0",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -93239,26 +93250,9 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
   })))));
 };
 ProductPageTemplate.propTypes = {
-  image: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
-  title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   intro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
     blurbs: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
-  }),
-  main: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    image1: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
-    image2: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
-    image3: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string])
-  }),
-  testimonials: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,
-  fullImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
-  pricing: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    plans: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
   })
 };
 
@@ -93269,23 +93263,16 @@ var ProductPage = function ProductPage(_ref2) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 37,
       columnNumber: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ProductPageTemplate, {
-    image: frontmatter.image,
-    title: frontmatter.title,
     heading: frontmatter.heading,
-    description: frontmatter.description,
     intro: frontmatter.intro,
-    main: frontmatter.main,
-    testimonials: frontmatter.testimonials,
-    fullImage: frontmatter.full_image,
-    pricing: frontmatter.pricing,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 38,
       columnNumber: 7
     }
   }));
@@ -93300,7 +93287,7 @@ ProductPage.propTypes = {
 };
 var _default = ProductPage;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
-var productPageQuery = "1955354079";
+var productPageQuery = "3289721074";
 ;
 
 (function () {
@@ -93310,10 +93297,10 @@ var productPageQuery = "1955354079";
     return;
   }
 
-  reactHotLoader.register(ProductPageTemplate, "ProductPageTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\project-page.js");
-  reactHotLoader.register(ProductPage, "ProductPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\project-page.js");
-  reactHotLoader.register(productPageQuery, "productPageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\project-page.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog-master\\src\\templates\\project-page.js");
+  reactHotLoader.register(ProductPageTemplate, "ProductPageTemplate", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\project-page.js");
+  reactHotLoader.register(ProductPage, "ProductPage", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\project-page.js");
+  reactHotLoader.register(productPageQuery, "productPageQuery", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\project-page.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\templates\\project-page.js");
 })();
 
 ;
@@ -93333,9 +93320,9 @@ var productPageQuery = "1955354079";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\lenovo\Desktop\repos\portfolio-blog-master\node_modules\gatsby-plugin-netlify-cms\cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-__webpack_require__(/*! C:\Users\lenovo\Desktop\repos\portfolio-blog-master\node_modules\gatsby-plugin-netlify-cms\cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-module.exports = __webpack_require__(/*! C:\Users\lenovo\Desktop\repos\portfolio-blog-master/src/cms/cms.js */"./src/cms/cms.js");
+__webpack_require__(/*! C:\Users\lenovo\Desktop\repos\portfolio-blog\node_modules\gatsby-plugin-netlify-cms\cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+__webpack_require__(/*! C:\Users\lenovo\Desktop\repos\portfolio-blog\node_modules\gatsby-plugin-netlify-cms\cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+module.exports = __webpack_require__(/*! C:\Users\lenovo\Desktop\repos\portfolio-blog/src/cms/cms.js */"./src/cms/cms.js");
 
 
 /***/ }),
