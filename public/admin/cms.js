@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "fbb9010f60566cc98a91";
+/******/ 	var hotCurrentHash = "2e5812cf8dc539430466";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -92299,7 +92299,7 @@ var _default = useSiteMetadata;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1627111134979
+      // 1627135038103
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -92409,7 +92409,7 @@ var AboutPageTemplate = function AboutPageTemplate(_ref) {
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12 justify-content-center px-0",
+    className: "col-lg-4 col-md-12 justify-content-center px-1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -92557,7 +92557,7 @@ var BlogPostTemplate = function BlogPostTemplate(_ref) {
       helmet = _ref.helmet;
   var PostContent = contentComponent || _components_Content__WEBPACK_IMPORTED_MODULE_6__["default"];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "section",
+    className: "section p-0 bg-light",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -92565,7 +92565,7 @@ var BlogPostTemplate = function BlogPostTemplate(_ref) {
       columnNumber: 5
     }
   }, helmet || '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container content",
+    className: "container-fluid pt-5 bg-light content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
