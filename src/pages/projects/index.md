@@ -5,7 +5,7 @@ heading: Projects
 intro:
   blurbs:
     - image: /img/project1.jpg
-      subheading: Covidtimes.xyz
+      subheading: Covidtimes.xyz 
       text: >
         A website that tracks the real time number of covid-19 patients .
         This site is built using HTML , CSS , JS 

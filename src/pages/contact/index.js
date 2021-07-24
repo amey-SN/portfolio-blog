@@ -37,13 +37,13 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <section className="section p-0">
-          <div className="container-fluid bg-light px-5">
+          <div className="container-fluid bg-light px-3">
             <div className="row">
               <h1 className="text-center pt-5 mb-5" >CONTACT</h1>
             </div>
-            <div className="text-center px-5">
+            <div className="text-center px-4">
               <div className="row justify-content-center">
-              <p className="lead px-5">
+              <p className="lead px-2">
                 I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them. I want to bring my collective design experience to the table where we can work together to solve real business-problems in a way that optimizes all of our respective experience and knowledge.
                 
                 I want to avoid subjective pissing-matches, and favor open-minded collaborators where egos are out of the equation. 

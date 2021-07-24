@@ -15,7 +15,4 @@ I love to connect with new people and build new relationships, so feel free to s
 - HSC - 85.23 % (2018)  
 
 ### Current Role
-- Web Development Intern at AgarkarMedia 
-
-### Let's get in touch!
-If you'd like to hire me,  give me feedback of any kind, I'll be delighted to hear from you. 
+- Web Development Intern at AgarkarMedia  

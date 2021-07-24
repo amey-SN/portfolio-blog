@@ -16,7 +16,7 @@ export const AboutPageTemplate = ({ title, image,content, contentComponent }) =>
           <h1>{title}</h1>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-4 col-md-12 justify-content-center pr-0">
+          <div className="col-lg-4 col-md-12 justify-content-center px-0">
           <img height="500" width="350" className="img-thumbnail img-responsive shadow-sm mb-2" src={ !!image.childImageSharp ? image.childImageSharp.fluid.src : image} alt="profile"/>
           </div>
           <div className="col-lg-4 col-md-12">

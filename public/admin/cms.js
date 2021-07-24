@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "e66698022ecc82e357ca";
+/******/ 	var hotCurrentHash = "fbb9010f60566cc98a91";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -92409,7 +92409,7 @@ var AboutPageTemplate = function AboutPageTemplate(_ref) {
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12 justify-content-center pr-0",
+    className: "col-lg-4 col-md-12 justify-content-center px-0",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
