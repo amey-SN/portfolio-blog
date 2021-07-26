@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "2e5812cf8dc539430466";
+/******/ 	var hotCurrentHash = "8fdefef67b483ff48a7b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -71896,6 +71896,125 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-scroll-to-top/dist/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-scroll-to-top/dist/index.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var React = __webpack_require__(/*! react */ "react");
+var React__default = _interopDefault(React);
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+}
+
+function styleInject(css, ref) {
+  if (ref === void 0) ref = {};
+  var insertAt = ref.insertAt;
+
+  if (!css || typeof document === 'undefined') {
+    return;
+  }
+
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (insertAt === 'top') {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
+    }
+  } else {
+    head.appendChild(style);
+  }
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var css_248z = ".styles_scroll-to-top__2A70v {\n    background-color: white;\n    right: 40px;\n    bottom: 40px;\n    position: fixed;\n    z-index: 2;\n    cursor: pointer;\n    border-radius: 7px;\n    width: 40px;\n    height: 40px;\n    transition: opacity 1s ease-in-out;\n    box-shadow: 0 9px 25px 0 rgba(132,128,177,0.28);\n    border: none;\n    outline: none;\n}\n\n.styles_scroll-to-top__2A70v:active {\n    transform: matrix(0.95, 0, 0, 0.95, 0, 0);\n}\n";
+var styles = {"scroll-to-top":"styles_scroll-to-top__2A70v"};
+styleInject(css_248z);
+
+function scrollToTop(smooth) {
+    if (smooth === void 0) { smooth = false; }
+    if (smooth) {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
+    else {
+        document.documentElement.scrollTop = 0;
+    }
+}
+var ScrollToTop = function (_a) {
+    var _b = _a.top, top = _b === void 0 ? 20 : _b, _c = _a.className, className = _c === void 0 ? styles["scroll-to-top"] : _c, _d = _a.color, color = _d === void 0 ? "black" : _d, _e = _a.smooth, smooth = _e === void 0 ? false : _e, _f = _a.component, component = _f === void 0 ? "" : _f, _g = _a.viewBox, viewBox = _g === void 0 ? "0 0 256 256" : _g, _h = _a.svgPath, svgPath = _h === void 0 ? "M222.138,91.475l-89.6-89.6c-2.5-2.5-6.551-2.5-9.051,0l-89.6,89.6c-2.5,2.5-2.5,6.551,0,9.051s6.744,2.5,9.244,0L122,21.85  V249.6c0,3.535,2.466,6.4,6,6.4s6-2.865,6-6.4V21.85l78.881,78.676c1.25,1.25,2.992,1.875,4.629,1.875s3.326-0.625,4.576-1.875  C224.586,98.025,224.638,93.975,222.138,91.475z" : _h, props = __rest(_a, ["top", "className", "color", "smooth", "component", "viewBox", "svgPath"]);
+    var _j = React.useState(false), visible = _j[0], setVisible = _j[1];
+    React.useEffect(function () {
+        document.addEventListener("scroll", onScroll);
+        // Remove listener on unmount
+        return function () { return document.removeEventListener("scroll", onScroll); };
+    }, []);
+    var onScroll = function () {
+        setVisible(document.documentElement.scrollTop > top);
+    };
+    return (React__default.createElement(React__default.Fragment, null, visible && (React__default.createElement("button", __assign({ className: className, onClick: function () { return scrollToTop(smooth); } }, props), component ? component : (React__default.createElement("svg", { fill: color, viewBox: viewBox },
+        React__default.createElement("path", { d: svgPath })))))));
+};
+
+module.exports = ScrollToTop;
+//# sourceMappingURL=index.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/react-side-effect/lib/index.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react-side-effect/lib/index.js ***!
@@ -91306,6 +91425,8 @@ var FeatureGrid = function FeatureGrid(_ref) {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: "text-decoration-none",
       href: "https://github.com/amey-SN/",
+      target: "_blank",
+      rel: "noopener noreferrer",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -91361,6 +91482,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var react_scroll_to_top__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-scroll-to-top */ "./node_modules/react-scroll-to-top/dist/index.js");
+/* harmony import */ var react_scroll_to_top__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scroll_to_top__WEBPACK_IMPORTED_MODULE_3__);
 
 var _jsxFileName = "C:\\Users\\lenovo\\Desktop\\repos\\portfolio-blog\\src\\components\\Footer.js";
 
@@ -91374,6 +91497,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 };
 
 /* eslint-disable */
+
 
 
 
@@ -91391,7 +91515,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 7
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("footer", {
@@ -91399,7 +91523,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 7
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -91407,47 +91531,48 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 11
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "row mr-0",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12,
-        columnNumber: 15
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "my-5",
+      className: "row",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13,
-        columnNumber: 17
+        columnNumber: 15
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "#navbar",
-      smooth: true,
-      duration: 1000,
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "my-3",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14,
-        columnNumber: 19
+        columnNumber: 17
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-      className: "fa fa-angle-up fa-3x fa-inverse",
-      title: "back-to-top",
-      "aria-hidden": "true",
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_scroll_to_top__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      style: {
+        position: 'relative',
+        bottom: '4px',
+        right: '4px',
+        boxShadow: 'none',
+        color: '#fff',
+        backgroundColor: '#212529',
+        height: '4rem',
+        width: '4rem'
+      },
+      svgPath: "M15.997 13.374l-7.081 7.081L7 18.54l8.997-8.998 9.003 9-1.916 1.916z",
+      smooth: true,
+      color: "#fff",
+      viewBox: "0 0 32 32",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
-        columnNumber: 17
+        lineNumber: 16,
+        columnNumber: 19
       }
-    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "row",
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "row pt-3",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -91471,6 +91596,8 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
       href: "https://github.com/amey-SN",
+      target: "_blank",
+      rel: "noopener noreferrer",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -91483,7 +91610,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22,
-        columnNumber: 79
+        columnNumber: 121
       }
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       className: "px-3",
@@ -91495,6 +91622,8 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
       href: "https://www.linkedin.com/in/amey-nagmode/",
+      target: "_blank",
+      rel: "noopener noreferrer",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -91507,7 +91636,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24,
-        columnNumber: 94
+        columnNumber: 136
       }
     }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", {
       __self: this,
@@ -92299,7 +92428,7 @@ var _default = useSiteMetadata;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1627135038103
+      // 1627281448643
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -92409,7 +92538,7 @@ var AboutPageTemplate = function AboutPageTemplate(_ref) {
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-4 col-md-12 justify-content-center px-1",
+    className: "col-lg-4 col-md-12 justify-content-center px-3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,

@@ -37,13 +37,14 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <section className="section p-0">
-          <div className="container-fluid bg-light px-3">
+          <div className="container-fluid bg-light py-5">
             <div className="row">
-              <h1 className="text-center pt-5 mb-5" >CONTACT</h1>
+              <h1 className="text-center pt-3 mb-5" >CONTACT</h1>
             </div>
-            <div className="text-center px-4">
+            <div className="text-center px-1">
               <div className="row justify-content-center">
-              <p className="lead px-2">
+                <div className="col-lg-6">
+                <p className="lead px-1">
                 I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them. I want to bring my collective design experience to the table where we can work together to solve real business-problems in a way that optimizes all of our respective experience and knowledge.
                 
                 I want to avoid subjective pissing-matches, and favor open-minded collaborators where egos are out of the equation. 
@@ -53,14 +54,14 @@ export default class Index extends React.Component {
                 Feel free to reach out through any platforms bellow:
 			
               </p>
+                </div>
+              
               </div>
               <div className="py-5">
-                <span className="pb-2 px-1 h3">
+                <span className="pb-5 px-1 h3">
                 <button className="btn"><a className="text-reset text-decoration-none" target="_blank" rel="noreferrer" href="mailto:ameynagmode@gmail.com?Subject=From%20portfolio%20contact%20section">Start a Conversation</a></button>
                 </span>
                 </div>
-            </div>
-            <div className="row">
             </div>
           </div>
         </section>

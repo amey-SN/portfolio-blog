@@ -19,7 +19,7 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <div className="w-100"><p className="pt-3">{item.text}</p></div>
-          <button style={{position:'relative', bottom:'5px',}} className="btn"><a className="text-decoration-none" href="https://github.com/amey-SN/">Source Code</a></button>
+          <button style={{position:'relative', bottom:'5px',}} className="btn"><a className="text-decoration-none" href="https://github.com/amey-SN/" target="_blank" rel="noopener noreferrer">Source Code</a></button>
         </section>
       </div>
     ))}
