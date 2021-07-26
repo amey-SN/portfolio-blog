@@ -12,9 +12,9 @@ export const ProductPageTemplate = ({
   <section>
     <div className="container-fluid bg-white p-3">
       <div className="row justify-content-center">
-        <h1 className="text-center pt-5" >{heading}</h1>
+        <h1 className="text-center p-5 mb-0" >{heading}</h1>
       </div>
-      <div className="container  pt-0">
+      <div className="container pt-0 pb-5">
       <Features gridItems={intro.blurbs} />
       </div>
     </div>

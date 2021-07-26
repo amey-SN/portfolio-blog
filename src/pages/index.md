@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Hi , My name is Amey Nagmode
+title: Hi, My name is Amey Nagmode
 image: /img/home-jumbotron.jpg
 subheading: I am a Web Developer
 mainpitch:

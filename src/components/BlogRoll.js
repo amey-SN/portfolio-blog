@@ -47,7 +47,7 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <div style={{position:'absolute', bottom:'15px', left:'10px',}} >
+                  <div style={{position:'absolute', bottom:'15px', left:'23px', padding:'2',}} >
                   <Link className="button" to={post.fields.slug}>
                     Go To Blog  →
                   </Link>

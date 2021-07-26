@@ -40,6 +40,7 @@ export const IndexPageTemplate = ({
             color: '#C9F6FF',
             textShadow:'2px 2px 5px black',
             lineHeight: '2',
+            textAlign:'center',
             // WebkitTextStroke:'0.5px #f8f9fa70',
             // WebkitBackgroundClip: 'text',
             // WebkitTextFillColor: 'transparent',
@@ -54,6 +55,7 @@ export const IndexPageTemplate = ({
             color: '#C9F6FF',
             lineHeight: '1.5',
             width:'100%',
+            textAlign:'center',
             textShadow:'2px 2px 5px black',
             marginBottom:'8rem',
           }}
@@ -86,35 +88,35 @@ export const IndexPageTemplate = ({
     
 {/* projects section */}
 
-<section>
-    <div className="container-fluid p-3 bg-dark text-light">
+  <section>
+    <div className="container-fluid bg-dark text-light ">
       <div className="row justify-content-center">
-        <h1 className="text-center py-3" >{heading}</h1>
+        <h1 className="text-center p-5 mb-0" >{heading}</h1>
       </div>
-      <div className="container  pt-0">
+      <div className="container">
       <Features gridItems={intro.blurbs} />
       </div>
-    </div>
-      
-    <div className="text-center py-3 bg-dark">
+    <div className="text-center bg-dark p-5">
         <Link className="btn text-light"  to="/projects">See all projects</Link>
     </div>
+    </div>
+      
         
   </section>
  
     {/* blogs section */}
           <section>
-              <div className="container-fluid bg-white">
+              <div className="container-fluid bg-white py-5">
                 <div className="row">
-                <div className="mt-2 pt-3">
-                    <h1 className="text-center text-dark pt-2 pb-4">Blogs</h1>
+                <div className="">
+                    <h1 className="text-center text-dark pb-5">Blogs</h1>
                 </div>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-12 col-md-12">
                     <BlogRoll/>
                     </div>
-                    <div className="col-lg-12 col-md-12 text-center text-white my-5 mx-0">
+                    <div className="col-lg-12 col-md-12 text-center text-white pt-5">
                     <Link className="btn" to="/blog">
                       Explore All Blogs
                     </Link>
@@ -122,7 +124,7 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
           </section>
-    {/* blog section ends */}
+          {/* blog section ends */}
   </div>
 )
 
